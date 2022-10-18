@@ -1,8 +1,8 @@
 # Documentation
-<h1> ANALYSIS <h1/>
-<h2> Requirements <h2/>
-<h3> Functional requirements <h3/>
-<h4> MUST: <h4/>
+<h1> ANALYSIS 
+<h2> Requirements
+<h3> Functional requirements
+<h4> MUST:
 <p>
 FR-1.	An user has to be able to create an account. <br/>
        B-1.1	An username has to be unique. <br/>
@@ -22,25 +22,30 @@ FR-6.	An user has to be able to view all available cards. <br/>
        B-6.1	The cards can be filtered on Cost, Rarity, Type, Set & Class of the card. <br/>
        K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <br/> 
 <p/>
+<h4/>
 <br/>
-<h4> SHOULD: <h4/>
+<h4> SHOULD: 
 <p>
 FR-7.	An user should be able to see all decks shared on the web application. <br/>
        B-7.1	Decks can be filtered based on Class. <br/>
        B-7.2	Decks can be filtered based on cards that it should(n’t) contain. <br/>
        K-7.1	An user should be able to copy and edit the copied deck for his own use. <br/>
 <p/>
- <br/>
-<h4> COULD: <h4/>
+<h4/>
+<br/>
+<h4> COULD: 
 <p>
 FR-8.	An user could also create ‘Wild’ & ‘Classic’ decks. <br/>
 <p/>
- <br/>
-<h4> WON’T: <h4/>
+<h4/>
+<br/>
+<h4> WON’T: 
 <p>
 FR-9.	Decks for ‘Duel’ won’t be available. <br/>
 FR-10.	Cards for ‘Battlegrounds’ and ‘Mercenaries’ won’t be available. <br/>
 <p/>
+<h4/>
+<h3/>
 <br/>
 <h3> Non-functional requirements <h3/>
 <h4><h4/>
@@ -49,9 +54,10 @@ NFR 1.	The web application has to be easy to use for the users <br/>
 NFR 2.	The web application has to be loaded within 10 seconds <br/>
 NFR 2.1	The aim will be within 2 seconds <br/>
 <p/>
+<h2/> 
 <br/>
-<h2> User Stories <h2/>
-<h4><h4/>
+<h2> User Stories 
+<h4>
 <p>
 1.	As an user I want to be able to create an account, so I can create decks. <br/>
 2.	As an user I want to be able to log in, so I can access my decks. <br/>
@@ -61,3 +67,6 @@ NFR 2.1	The aim will be within 2 seconds <br/>
 6.	As an admin I want to be able to change credentials of users and decks, so the names won’t be inappropriate. <br/>
 7.	As an admin I want to be able to manage the cards, so the web application has all the cards that are available. <br/>
 <p/>
+<h4/>
+<h2/>     
+<h1/>
