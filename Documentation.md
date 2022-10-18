@@ -43,6 +43,7 @@ FR-10.	Cards for ‘Battlegrounds’ and ‘Mercenaries’ won’t be available.
 <p/>
 <br/>
 <h3> Non-functional requirements <h3/>
+<h4><h4/>
 <p>
 NFR 1.	The web application has to be easy to use for the users <br/>
 NFR 2.	The web application has to be loaded within 10 seconds <br/>
@@ -50,6 +51,7 @@ NFR 2.1	The aim will be within 2 seconds <br/>
 <p/>
 <br/>
 <h2> User Stories <h2/>
+<h4><h4/>
 <p>
 1.	As an user I want to be able to create an account, so I can create decks. <br/>
 2.	As an user I want to be able to log in, so I can access my decks. <br/>
