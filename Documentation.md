@@ -23,7 +23,6 @@ FR-6.	An user has to be able to view all available cards. <br/>
        K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <br/> 
 <p/>
 <h4/>
-<br/>
 <h4> SHOULD: 
 <p>
 FR-7.	An user should be able to see all decks shared on the web application. <br/>
@@ -32,13 +31,11 @@ FR-7.	An user should be able to see all decks shared on the web application. <br
        K-7.1	An user should be able to copy and edit the copied deck for his own use. <br/>
 <p/>
 <h4/>
-<br/>
 <h4> COULD: 
 <p>
 FR-8.	An user could also create ‘Wild’ & ‘Classic’ decks. <br/>
 <p/>
 <h4/>
-<br/>
 <h4> WON’T: 
 <p>
 FR-9.	Decks for ‘Duel’ won’t be available. <br/>
@@ -46,14 +43,14 @@ FR-10.	Cards for ‘Battlegrounds’ and ‘Mercenaries’ won’t be available.
 <p/>
 <h4/>
 <h3/>
-<br/>
 <h3> Non-functional requirements <h3/>
-<h4><h4/>
+<h4>
 <p>
 NFR 1.	The web application has to be easy to use for the users <br/>
 NFR 2.	The web application has to be loaded within 10 seconds <br/>
 NFR 2.1	The aim will be within 2 seconds <br/>
 <p/>
+<h4/>
 <h2/> 
 <br/>
 <h2> User Stories 
