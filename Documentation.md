@@ -16,26 +16,34 @@
        FR-2.	An user has to be able to log in. 
 <li/>  
 <li>
-       FR-3.	An user has to be able to change his credentials. <br/>
-       K-3.1	Username, password and e-mail address has to be changeable. <br/>
+       FR-3.	An user has to be able to change his credentials.
+       <ul>
+       <li> K-3.1	Username, password and e-mail address has to be changeable. <li/>  
+       <ul/>
 <li/> 
 <li>
-       FR-4.	An user can add decks. <br/>
-       K-4.1	The decks will be available to all users. <br/>
-       B-4.2	A deck has to contain 30 cards. <br/>
-       B-4.3	A deck can’t contain more than 2 copies of the same card. <br/>
-       B-4.4	A deck has an unique name. <br/>
+       FR-4.	An user can add decks.
+       <ul>
+       <li> K-4.1	The decks will be available to all users. <li/>  
+       <li> B-4.2	A deck has to contain 30 cards. <li/>  
+       <li> B-4.3	A deck can’t contain more than 2 copies of the same card. <li/>  
+       <li> B-4.4	A deck has an unique name. <li/>  
+       <ul/>
 <li/>  
 <li>       
-       FR-5.	An user can manage his decks <br/>
-       K-5.1	Save, Edit & Delete <br/>
+       FR-5.	An user can manage his decks
+       <ul>
+       <li> K-5.1	Save, Edit & Delete <li/>
+       <ul/>
 <li/>  
 <li>       
-       FR-6.	An user has to be able to view all available cards. <br/>
-       B-6.1	The cards can be filtered on Cost, Rarity, Type, Set & Class of the card. <br/>
-       K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <br/> 
+       FR-6.	An user has to be able to view all available cards.
+       <ul>
+       <li> B-6.1	The cards can be filtered on Cost, Rarity, Type, Set & Class of the card. <li/>
+       <li> K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <li/> 
+       <ul/>       
 <li/>  
-<ul>
+<ul/>
 <p/>
 <br/>
 SHOULD: <br/>
