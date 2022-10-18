@@ -1,27 +1,41 @@
 # Documentation
-<h1> ANALYSIS <h1/> <br/>
----
-<h2> Requirements <h2/> <br/>
-<h3> Functional requirements <h3/> <br/>
-<h4> MUST: <h4/> <br/>
+<h1> ANALYSIS <h1/>
+<h2> Requirements <h2/>
+<h3> Functional requirements <h3/>
+<h4> MUST: <h4/>
 <p>
-FR-1.	An user has to be able to create an account. <br/>
-       B-1.1	An username has to be unique. <br/>
-       B-1.2	A password has to match the safety requirements. <br/>
-       B-1.3	An e-mail address has to be unique. <br/>
-FR-2.	An user has to be able to log in. <br/>
-FR-3.	An user has to be able to change his credentials. <br/>
+<ul>
+<li> FR-1.	An user has to be able to create an account. 
+       <ul>
+       <li> B-1.1	An username has to be unique. <li/>  
+       <li> B-1.2	A password has to match the safety requirements. <li/>  
+       <li> B-1.3	An e-mail address has to be unique. <li/>  
+       <ul/>
+<li/>       
+<li> 
+       FR-2.	An user has to be able to log in. 
+<li/>  
+<li>
+       FR-3.	An user has to be able to change his credentials. <br/>
        K-3.1	Username, password and e-mail address has to be changeable. <br/>
-FR-4.	An user can add decks. <br/>
+<li/> 
+<li>
+       FR-4.	An user can add decks. <br/>
        K-4.1	The decks will be available to all users. <br/>
        B-4.2	A deck has to contain 30 cards. <br/>
        B-4.3	A deck can’t contain more than 2 copies of the same card. <br/>
        B-4.4	A deck has an unique name. <br/>
-FR-5.	An user can manage his decks <br/>
+<li/>  
+<li>       
+       FR-5.	An user can manage his decks <br/>
        K-5.1	Save, Edit & Delete <br/>
-FR-6.	An user has to be able to view all available cards. <br/>
+<li/>  
+<li>       
+       FR-6.	An user has to be able to view all available cards. <br/>
        B-6.1	The cards can be filtered on Cost, Rarity, Type, Set & Class of the card. <br/>
        K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <br/> 
+<li/>  
+<ul>
 <p/>
 <br/>
 SHOULD: <br/>
