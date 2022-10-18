@@ -1,52 +1,30 @@
 # Documentation
+# Documentation
 <h1> ANALYSIS <h1/>
 <h2> Requirements <h2/>
 <h3> Functional requirements <h3/>
 <h4> MUST: <h4/>
 <p>
-<ul>
-<li> FR-1.	An user has to be able to create an account. 
-       <ul>
-       <li> B-1.1	An username has to be unique. <li/>  
-       <li> B-1.2	A password has to match the safety requirements. <li/>  
-       <li> B-1.3	An e-mail address has to be unique. <li/>  
-       <ul/>
-<li/>       
-<li> 
-       FR-2.	An user has to be able to log in. 
-<li/>  
-<li>
-       FR-3.	An user has to be able to change his credentials.
-       <ul>
-       <li> K-3.1	Username, password and e-mail address has to be changeable. <li/>  
-       <ul/>
-<li/> 
-<li>
-       FR-4.	An user can add decks.
-       <ul>
-       <li> K-4.1	The decks will be available to all users. <li/>  
-       <li> B-4.2	A deck has to contain 30 cards. <li/>  
-       <li> B-4.3	A deck can’t contain more than 2 copies of the same card. <li/>  
-       <li> B-4.4	A deck has an unique name. <li/>  
-       <ul/>
-<li/>  
-<li>       
-       FR-5.	An user can manage his decks
-       <ul>
-       <li> K-5.1	Save, Edit & Delete <li/>
-       <ul/>
-<li/>  
-<li>       
-       FR-6.	An user has to be able to view all available cards.
-       <ul>
-       <li> B-6.1	The cards can be filtered on Cost, Rarity, Type, Set & Class of the card. <li/>
-       <li> K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <li/> 
-       <ul/>       
-<li/>  
-<ul/>
+FR-1.	An user has to be able to create an account. <br/>
+       B-1.1	An username has to be unique. <br/>
+       B-1.2	A password has to match the safety requirements. <br/>
+       B-1.3	An e-mail address has to be unique. <br/>
+FR-2.	An user has to be able to log in. <br/>
+FR-3.	An user has to be able to change his credentials. <br/>
+       K-3.1	Username, password and e-mail address has to be changeable. <br/>
+FR-4.	An user can add decks. <br/>
+       K-4.1	The decks will be available to all users. <br/>
+       B-4.2	A deck has to contain 30 cards. <br/>
+       B-4.3	A deck can’t contain more than 2 copies of the same card. <br/>
+       B-4.4	A deck has an unique name. <br/>
+FR-5.	An user can manage his decks <br/>
+       K-5.1	Save, Edit & Delete <br/>
+FR-6.	An user has to be able to view all available cards. <br/>
+       B-6.1	The cards can be filtered on Cost, Rarity, Type, Set & Class of the card. <br/>
+       K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <br/> 
 <p/>
 <br/>
-SHOULD: <br/>
+<h4> SHOULD: <h4/>
 ---
 <p>
 FR-7.	An user should be able to see all decks shared on the web application. <br/>
@@ -55,20 +33,20 @@ FR-7.	An user should be able to see all decks shared on the web application. <br
        K-7.1	An user should be able to copy and edit the copied deck for his own use. <br/>
 <p/>
  <br/>
-COULD: <br/>
+<h4> COULD: <h4/>
 ---
 <p>
 FR-8.	An user could also create ‘Wild’ & ‘Classic’ decks. <br/>
 <p/>
  <br/>
-WON’T: <br/>
+<h4> WON’T: <h4/>
 ---
 <p>
 FR-9.	Decks for ‘Duel’ won’t be available. <br/>
 FR-10.	Cards for ‘Battlegrounds’ and ‘Mercenaries’ won’t be available. <br/>
 <p/>
 <br/>
-Non-functional requirements <br/>
+<h3> Non-functional requirements <h3/>
 ---
 <p>
 NFR 1.	The web application has to be easy to use for the users <br/>
@@ -76,7 +54,7 @@ NFR 2.	The web application has to be loaded within 10 seconds <br/>
 NFR 2.1	The aim will be within 2 seconds <br/>
 <p/>
 <br/>
-User Stories <br/>
+<h2> User Stories <h2/>
 ---
 <p>
 1.	As an user I want to be able to create an account, so I can create decks. <br/>
