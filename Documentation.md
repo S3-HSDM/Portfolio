@@ -52,7 +52,6 @@ NFR 2.1	The aim will be within 2 seconds <br/>
 <p/>
 <h4/>
 <h2/> 
-<br/>
 <h2> User Stories 
 <h4>
 <p>
