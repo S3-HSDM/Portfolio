@@ -1,12 +1,9 @@
 # Documentation
-ANALYSIS <br/>
+<h1> ANALYSIS <h1/> <br/>
 ---
-Requirements <br/>
----
-Functional requirements <br/>
----
-MUST: <br/>
----
+<h2> Requirements <h2/> <br/>
+<h3> Functional requirements <h3/> <br/>
+<h4> MUST: <h4/> <br/>
 <p>
 FR-1.	An user has to be able to create an account. <br/>
        B-1.1	An username has to be unique. <br/>
