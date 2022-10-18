@@ -1,5 +1,4 @@
 # Documentation
-# Documentation
 <h1> ANALYSIS <h1/>
 <h2> Requirements <h2/>
 <h3> Functional requirements <h3/>
