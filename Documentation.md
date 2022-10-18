@@ -24,7 +24,6 @@ FR-6.	An user has to be able to view all available cards. <br/>
 <p/>
 <br/>
 <h4> SHOULD: <h4/>
----
 <p>
 FR-7.	An user should be able to see all decks shared on the web application. <br/>
        B-7.1	Decks can be filtered based on Class. <br/>
@@ -33,20 +32,17 @@ FR-7.	An user should be able to see all decks shared on the web application. <br
 <p/>
  <br/>
 <h4> COULD: <h4/>
----
 <p>
 FR-8.	An user could also create ‘Wild’ & ‘Classic’ decks. <br/>
 <p/>
  <br/>
 <h4> WON’T: <h4/>
----
 <p>
 FR-9.	Decks for ‘Duel’ won’t be available. <br/>
 FR-10.	Cards for ‘Battlegrounds’ and ‘Mercenaries’ won’t be available. <br/>
 <p/>
 <br/>
 <h3> Non-functional requirements <h3/>
----
 <p>
 NFR 1.	The web application has to be easy to use for the users <br/>
 NFR 2.	The web application has to be loaded within 10 seconds <br/>
@@ -54,7 +50,6 @@ NFR 2.1	The aim will be within 2 seconds <br/>
 <p/>
 <br/>
 <h2> User Stories <h2/>
----
 <p>
 1.	As an user I want to be able to create an account, so I can create decks. <br/>
 2.	As an user I want to be able to log in, so I can access my decks. <br/>
