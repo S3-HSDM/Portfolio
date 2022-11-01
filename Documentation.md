@@ -4,7 +4,7 @@
 <h3> Functional requirements
 <h4> MUST:
 <p>
-  <li>
+  <ul>
 1 FR   An user has to be able to create an account. <br/>
   - B-1.1	An username has to be unique. <br/>
   - B-1.2	A password has to match the safety requirements. <br/>
@@ -22,7 +22,7 @@ FR-5.	An user can manage his decks <br/>
 FR-6.	An user has to be able to view all available cards. <br/>
        B-6.1	The cards can be filtered on Cost, Rarity, Type, Set & Class of the card. <br/>
        K-Alg-1.	If something is entered wrong, the user has to get an visual error message. <br/> 
-    <li/>
+    <ul/>
 <p/>
 <h4/>
 <h4> SHOULD: 
