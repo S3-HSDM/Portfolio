@@ -77,3 +77,9 @@ In the diagram above is which containers my system will contain. Further it show
 The next step is to zoom in and decompose each container further to identify the major structural building blocks and their interactions. The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
 
 In the diagram above is shown what components the container "API Application" contains. It shows a layer with Controllers and a layer with Services. One to communicate with the "Single-page Application" container and one to communicate with the Database.
+
+**Level 4: Code Diagram**
+
+![alt text](https://github.com/S3-HSDM/Portfolio/blob/main/images/ConceptueelModel.png?raw=true)
+
+![alt text](https://github.com/S3-HSDM/Portfolio/blob/main/images/ClassDiagram.png?raw=true)
