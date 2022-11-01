@@ -1,16 +1,16 @@
 # Documentation
-<h1> ANALYSIS 
-<h2> Requirements
+## ANALYSIS 
+### Requirements
 <h3> Functional requirements
 <h4> MUST:
 <p>
-FR-1.	An user has to be able to create an account. <br/>
-       B-1.1	An username has to be unique. <br/>
-       B-1.2	A password has to match the safety requirements. <br/>
-       B-1.3	An e-mail address has to be unique. <br/>
-FR-2.	An user has to be able to log in. <br/>
-FR-3.	An user has to be able to change his credentials. <br/>
-       K-3.1	Username, password and e-mail address has to be changeable. <br/>
+1 FR   An user has to be able to create an account. <br/>
+  - B-1.1	An username has to be unique. <br/>
+  - B-1.2	A password has to match the safety requirements. <br/>
+  - B-1.3	An e-mail address has to be unique. <br/>
+2 FR	An user has to be able to log in. <br/>
+3 FR	An user has to be able to change his credentials. <br/>
+  - K-3.1	Username, password and e-mail address has to be changeable. <br/>
 FR-4.	An user can add decks. <br/>
        K-4.1	The decks will be available to all users. <br/>
        B-4.2	A deck has to contain 30 cards. <br/>
