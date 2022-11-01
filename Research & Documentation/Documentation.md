@@ -41,6 +41,7 @@
 1. The web application has to be easy to use for the users.
 2. The web application has to be loaded within 10 seconds.
    - 2.1 The aim will be within 2 seconds.
+
 ### User Stories 
 1.	As an user I want to be able to create an account, so I can create decks.
 2.	As an user I want to be able to log in, so I can access my decks.
@@ -49,3 +50,29 @@
 5.	As an user I want to be able to manage my decks, so when a deck becomes less relevant, I could edit or delete the deck.
 6.	As an admin I want to be able to change credentials of users and decks, so the names won’t be inappropriate.
 7.	As an admin I want to be able to manage the cards, so the web application has all the cards that are available.
+
+### C4-Model
+**Level 1: System Context Diagram**
+
+![alt text](https://github.com/S3-HSDM/Portfolio/blob/main/images/C4-Model_Level1.jpg?raw=true)
+
+A System Context diagram is a good starting point for diagramming and documenting a software system, allowing you to step back and see the big picture. The System Context diagram shows my system, surrounded by the users of the system and other systems that my system will interact with. The focus should be on people (actors, roles, personas, etc) and software systems rather than technologies, protocols and other low-level details. It's the sort of diagram that could be shown to non-technical people, like in most cases the stakeholders for a project.
+
+In the diagram above is my system shown, alongside the actors it will interact with/be used by.
+
+**Level 2: Container Diagram**
+
+![alt text](https://github.com/S3-HSDM/Portfolio/blob/main/images/C4-Model_Level2.png?raw=true)
+
+After I understand how my system fits in to the IT environment, a next step is to zoom in to the system boundary with a Container diagram. A "container" is a separately runnable/deployable part of my system that executes code or stores data.
+
+The Container diagram shows the high-level shape of the software architecture and how responsibilities are distributed across it. It also shows the major technology choices and how the containers communicate with one another.
+
+In the diagram above is which containers my system will contain. Further it shows which protocols will be used to set up the communication between containers and between the user and the system.
+
+**Level 3: Component Diagram**
+
+![alt text](https://github.com/S3-HSDM/Portfolio/blob/main/images/C4-Model_Level3.png?raw=true)
+
+The next step is to zoom in and decompose each container further to identify the major structural building blocks and their interactions. The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+
