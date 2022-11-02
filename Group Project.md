@@ -1,1 +1,1 @@
-# Learning outcomes GP
+# Group Project (Webshop Scraper)
