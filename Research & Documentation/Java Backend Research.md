@@ -8,6 +8,8 @@ Quarkus is a newer framework but more innovative than Spring Boot. It boasts fas
 On the other hand, Spring Boot is mature, well-known and stable. It has extensive features, template design patterns and is highly secure. It also has excellent documentation and community support, which can help solve the majority of issues faced during development. The major cons of Spring Boot are poorer performance and higher memory consumption compared to Quarkus.
 Therefore, choosing between Quarkus and Spring Boot for building your application will depend on the requirements of your project, technological preferences and developer skill level. 
 
+Sources: [Source 1](https://www.baeldung.com/spring-boot-vs-quarkus), [Source 2](https://rollbar.com/blog/quarkus-vs-spring-boot/)
+
 ### Conclusion
 From online research I tend to use Spring Boot, since it has more documentation, which will be helpful in learning this new technic. On the other hand the live coding feature from Quarkus can be very useful in learning the technic, since you don’t have to reload your program whenever you change minor things in the code.
 
