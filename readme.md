@@ -1,5 +1,5 @@
 # Portfolio
-Portfolio for my [Individual Project](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md) (Hearthstone Deck Maker) & [Group Project](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md) (Is-It-Live product scraper)
+Portfolio for my [Individual Project](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md) (Hearthstone Deck Maker; [Backend](https://github.com/S3-HSDM/HSDM-BackEnd) & [Frontend](https://github.com/S3-HSDM/HSDM-FrontEnd)) & [Group Project](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md) (Is-It-Live product scraper)
 ![Hearthstone](https://github.com/S3-HSDM/Portfolio/blob/main/images/hsdm.jpg?raw=true)
 
 Student: Sander Meulensteen <br/>
