@@ -6,3 +6,7 @@ For my Individual Project I am going to make a Hearthstone Deck Maker. On this w
 For the deck overview I got my inspiration mainly from [HearthPwn](https://www.hearthpwn.com/decks?filter-show-standard=1&filter-show-constructed-only=y&filter-deck-tag=1) site.
 ![HearthPwn Deck Overview](https://github.com/S3-HSDM/Portfolio/blob/main/images/deckoverview.jpg?raw=true)
 
+## Project choices
+For this project I work according to the Agile ideology. I do this by working with Scrum method. To keep track of my tasks and the sprints I use the Trelloboard Tool on [Github](https://github.com/orgs/S3-HSDM/projects/1). My sprints will be 3 weeks long.
+The languages and frameworks I use for my Individual Project are Java Spring Boot for the Backand of the project and Javascript Angular for the Frontend. The reasoning for choosing these languages/frameworks are further explained in my research files. [Backend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Java%20Backend%20Research.md) & [Frontend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Javascript%20Frontend%20Research.md).
+
