@@ -1,1 +1,1 @@
-# Learning outcomes GP
+# Individual Project (Hearthstone Deckmaker)
