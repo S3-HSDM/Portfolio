@@ -12,3 +12,6 @@ The languages and frameworks I use for my Individual Project are Java Spring Boo
 
 ## Software design
 Before I could start coding for my web application I made Requirements, functional and non-functional. With those requirements I created user stories for my project. After the user stories I created a C4-model for my project. Those user stories and diagrams can be found in my documentation files. [Analysis Document](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Documentation.md)
+
+## CI/CD
+To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests created in my project, which are currently not yet available in my project. Next I need to setup docker for my project so the CD will also be covered.
