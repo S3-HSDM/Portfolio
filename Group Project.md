@@ -1,4 +1,4 @@
-# Group Project (Webshop Scraper)
+# Group Project for World of Content; The Webshop Scraper Is-It-Live
 
 ## Cultural differences and ethics
 For cultural differences and ethics to some ethical questions in the world of software development and questioned myself where I draw the line for developing software like facial recognition and AI. Also I evaluated my own project for ethical questions.
