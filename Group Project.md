@@ -16,7 +16,7 @@ As a team we chose to work the SCRUM agile method. So on a daily basis we had se
 
 ## Issues
 We created issues to keep track of all the things that we need to do as a team, to finish the project. Everyone can create issues, not everyone can assign them to one another. Every issue comes with it's own description and checklist of things that must be done to finish the issue.
-[Insert linking image]
+![Issues]([link to image on GH](https://github.com/S3-HSDM/Portfolio/blob/main/images/Issues.jpg?raw=true))
 
 ## Working as a team
 We managed to make it work as a team by making use of the agile method: SCRUM. Also by communicating to one another and having meetings offline- aswell as online. If anyone of us had a problem that we faced, there was always someone to help out and eliminate the issue. Before we started working on the project, we looked at everyones needs and what they wanted to do within the project. For example, Dirk and i are more interested in the frontend and dus React JS, so we started working on that. While te other team members decided to be more involved in the backend of the project, which worked well. Eventually we mamaged to make great progress every sprint and show WoC that we were able to create a webapp based on their requirements.
