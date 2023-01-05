@@ -30,6 +30,7 @@ There were one or two sprint assignments where we had to show what we've been wo
 ## Workflow
 ### How does the system work?
 You begin at the home page, where you are pesented a dropdown component where you select a retailer from. In this case, we limited the list of options to two retailers, Albert Heijn and Jumbo.
+
 ![Select Retailer](https://github.com/S3-HSDM/Portfolio/blob/main/images/SelectRetailer.png?raw=true)
 
 After selecting one of these options, the page will redirect to the main page loaded in with the corresponding data based on what retailer was chosen. You can see an overal score in the progress bar on the top of the page, which represents the score of all products shown in the table. The table on the page is loaded with all the products that the retailer has in stock, where you are able to see what livescore every product has.
