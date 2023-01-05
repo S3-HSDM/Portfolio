@@ -31,6 +31,7 @@ There were one or two sprint assignments where we had to show what we've been wo
 ### How does the system work?
 You begin at the home page, where you are pesented a dropdown component where you select a retailer from. In this case, we limited the list of options to two retailers, Albert Heijn and Jumbo.
 ![Select Retailer](https://github.com/S3-HSDM/Portfolio/blob/main/images/SelectRetailer.png?raw=true)
+
 After selecting one of these options, the page will redirect to the main page loaded in with the corresponding data based on what retailer was chosen. You can see an overal score in the progress bar on the top of the page, which represents the score of all products shown in the table. The table on the page is loaded with all the products that the retailer has in stock, where you are able to see what livescore every product has.
 
 ### Widgets
@@ -67,6 +68,7 @@ Bootstrap has a very easy to use and user friendly system, called the Grid syste
 ## Livescore
 The livescore is momenteraly calculated by comparing one snapshot to the existing list of products. It checks for three different things: EAN-number, Title & Description (bullet points) If any of these don't compare to the ones in the products list, we re-calulate the score and show it on the front of the page.
 ![Similarity Score](https://github.com/S3-HSDM/Portfolio/blob/main/images/SimilarityScore.png?raw=true)
+
 The livescore is calculated in the frontend of the project, since it doesn't need to be saved in the backend database.
 
 ### Software Quality
