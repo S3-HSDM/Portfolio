@@ -28,3 +28,46 @@ To be fair we actually managed to do pretty well as a team and split the issues 
 There were one or two sprint assignments where we had to show what we've been working on, but we did'nt prepare ourselfs well enough. Which lead to all being muted when we sat down and just staring at the one team member that brought the laptop to start talking. So, that was'nt so great. We did manage to create time to prepare ourselfs better for the next assignment.
 
 ## Workflow
+### How does the system work?
+You begin at the home page, where you are pesented a dropdown component where you select a retailer from. In this case, we limited the list of options to two retailers, Albert Heijn and Jumbo.
+![Select Retailer](https://github.com/S3-HSDM/Portfolio/blob/main/images/SelectRetailer.png?raw=true)
+After selecting one of these options, the page will redirect to the main page loaded in with the corresponding data based on what retailer was chosen. You can see an overal score in the progress bar on the top of the page, which represents the score of all products shown in the table. The table on the page is loaded with all the products that the retailer has in stock, where you are able to see what livescore every product has.
+
+### Widgets
+We decided to go with several components on a dashboard- like design, which we call widgets. These widgets each contain something different to show. The page consist out of the following widgets:
+
+### Live & Not Live - Score
+This widget contains a progressbar where the overal live and not live score has been stacked into. This widget provides an easy overview to all of the products their average livescores.
+![Live or Not Live Widget](https://github.com/S3-HSDM/Portfolio/blob/main/images/LiveNotLive.png?raw=true)
+
+### Total amount of products
+This widget contains the exact amount of products that the chosen retailer has in stock.
+![Total Amount of products Widget](https://github.com/S3-HSDM/Portfolio/blob/main/images/TotalAmount.png?raw=true)
+
+### Products list
+This widget contains a table which is filled with products that the retailer has in stock. The table consist out of the following columns: EAN-number, Product description, Status (Live or not live) and the similarity score (How much is the product alike with the provided example).
+![Products Table](https://github.com/S3-HSDM/Portfolio/blob/main/images/ProductsTable.png?raw=true)
+
+## Backend
+For the logic for this project we created a RestAPI and two scrapers. We also worked with MongoDB to create schemes and save necessary data into the database.
+
+### Scrapers
+Two of our team members were frocussed on building scrapers so we could get the necessary data from the retailer's websites. The scrappers simply look over to one of the retailer's page and checks what is on it. It then scrapes the data and puts it into a file. That data we can compare with the list of products data we got from WoC.
+
+### RestAPI
+The restapi is a backend tool where we can fetch data to be shown on the frontend of the project. The special thing within this RestAPI is that we managed to create a wrapper to fetch data more easily, instead of working with axios posts and gets.
+
+## Frontend
+### Design
+We decided to go for a dashboard like style. This because we then could add several widgets, which seem to work quit well with this project. At first we started of with a neutral page, which showed several components. After getting some useful feedback from WoC, we decided to go for the dashboard style. The colors used on the page and in the components work wel with eachother, you can see what is non-functional and what is functional on the webpage. There was a little bit of research needed to see what kind of styling would be best for this project. This depended on what kind of data we where going to show and what kind of components the data was loaded in. We also decided to make use of Bootstrap and build the page using React JS.
+
+### Bootstrap
+Bootstrap has a very easy to use and user friendly system, called the Grid system. This system was very useful to us because we wanted the dashboard type of layout, and this was very easy to implement. You could add Containers, Rows and Columns to create a nice layout which was also responsive.
+
+## Livescore
+The livescore is momenteraly calculated by comparing one snapshot to the existing list of products. It checks for three different things: EAN-number, Title & Description (bullet points) If any of these don't compare to the ones in the products list, we re-calulate the score and show it on the front of the page.
+![Similarity Score](https://github.com/S3-HSDM/Portfolio/blob/main/images/SimilarityScore.png?raw=true)
+The livescore is calculated in the frontend of the project, since it doesn't need to be saved in the backend database.
+
+### Software Quality
+For the quality of the RestAPI we have created Postman tests to ensure the endpoints are working. We also have deployed the project on Docker in 4 containers: Frontend, Backend, Database and one for the Scrapers.
