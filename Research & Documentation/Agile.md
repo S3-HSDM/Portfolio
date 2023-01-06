@@ -8,6 +8,7 @@ Working Agile is not a way of working on a project, but Agile is a mindset on ho
   <li> Customer collaboration over contract negotiation </li>
   <li> Responding to change over following a plan </li>
 </ul>
+
 ### Advantages of working Agile
 <ul>
   <li> You can deploy software quicker, so your customer can get value sooner rather than later </li>
@@ -15,6 +16,7 @@ Working Agile is not a way of working on a project, but Agile is a mindset on ho
   <li> You can experiment and test ideas because its costs are low </li>
   <li> Developers can improve their skills based on QA feedback </li>
 </ul>
+
 ### Disadvantages of working Agile
 <ul>
   <li> Documentation tends to get sidetracked, which makes it harder for new members to get up to speed </li>
