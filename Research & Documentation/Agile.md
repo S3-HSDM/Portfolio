@@ -30,7 +30,6 @@ There are a lot of different frameworks, each different from eachother, but also
 ### Scrum
 
 ### Sources:
-[Source 1 - Advantages and Disadvantages of Agile Project Management](https://activecollab.com/blog/project-management/agile-project-management-advantages-disadvantages)
-
+[Source 1 - Advantages and Disadvantages of Agile Project Management](https://activecollab.com/blog/project-management/agile-project-management-advantages-disadvantages) </br>
 [Source 2 - Top 5 main Agile methodologies: advantages and disadvantages](https://www.xpand-it.com/blog/top-5-agile-methodologies/)
 
