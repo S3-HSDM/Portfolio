@@ -12,5 +12,18 @@ For this project I work according to the Agile ideology. I do this by working wi
 ## Software design
 Before I could start coding for my web application I made Requirements, functional and non-functional. With those requirements I created user stories for my project. After the user stories I created a C4-model for my project. Those user stories and diagrams can be found in my documentation files. [Analysis Document](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Documentation.md)
 
-## CI/CD
-To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests created in my project, which are currently not yet available in my project. Next I need to setup docker for my project so the CD will also be covered.
+## Learning Outcomes (LO)
+For this semester we have to match some learning outcomes. These learning outcomes are displayed [here](https://github.com/S3-HSDM/Portfolio/blob/main/Learning%20Outcomes.md).
+
+## CI/CD (LO-4)
+### CI
+To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend it runs a serie of Unittests, Integrationtests and Regressiontest. For the Frontend it runs Unittest and Regressiontests.
+
+![Backend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/BackendActions.png?raw=true)
+The tests running in the backend can be seen [here](https://github.com/S3-HSDM/HSDM-BackEnd/tree/main/hsdm/src/test/java/nl/fhict/s3/hsdm). The folders contain the unittests and the HSDMApplicationTests.java file contains the Integrationtests.
+![Frontend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/FrontendActions.png?raw=true)
+
+### CD
+For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device.
+
+![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/Docker.png?raw=true)
