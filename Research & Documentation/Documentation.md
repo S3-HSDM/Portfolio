@@ -81,5 +81,3 @@ In the diagram above is shown what components the container "API Application" co
 **Level 4: Code Diagram**
 
 ![HSDM Conceptual Model](https://github.com/S3-HSDM/Portfolio/blob/main/images/ConceptueelModel.png?raw=true)
-
-![HSDM Class Diagram](https://github.com/S3-HSDM/Portfolio/blob/main/images/ClassDiagram.png?raw=true)
