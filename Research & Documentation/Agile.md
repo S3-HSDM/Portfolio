@@ -91,28 +91,30 @@ This is a framework which is fully focused on Software Development, this framewo
 ![Extreme Programming](https://github.com/S3-HSDM/Portfolio/blob/main/images/XP.png?raw=true)
 
 ## Lean Development
-
+Lean development is a methodology that comes directly from Lean Manufacturing, created by Toyota, and applied to software development. This method offers a conceptual framework and follows values, principles and good development practices that can be applied to an Agile development approach. Lean development forces the team to ruthlessly remove any activity that does not bring ultimate value to the product. There are seven essential principles: deleting things that do not matter (anything that does not bring effective value to the customer project); quality development (creating quality in development requires discipline and control of the number of residuals created); creating knowledge (the team is motivated to document the whole infrastructure to later retain that value); differing commitments (this point encourages the team not to focus too much on planning and anticipating ideas without having a complete prior understanding of the requirements of the business); fast delivery (getting value to the customer as soon as possible); respecting the team (communication and managing conflicts are two essential points); optimise the whole (the development sequence has to be perfected enough to be able to delete errors in the code, in order to create a flow of true value). Works on building simple solutions and presenting them to customers using their feedback on the “product” to incrementally enhance it. The “minimum viable product” concept is also often associated with Lean Development.
 
 ### Advantages
 <ul>
-  <li>  </li>
-  <li>  </li>
-  <li>  </li>
-  <li>  </li>
+  <li> Allows the team to delete superfluous activity, therefore saving time and money. </li>
+  <li> Decreases the time needed to deliver functionalities, since it prepares the development team during the decision-making process, hence increasing general motivation. </li>
+  <li> Easily scalable methodology, easily adaptable to projects of any dimension. </li>
+  <li> Does not over-engineer solutions or business requirements. </li>
 </ul>
 
 ### Disadvantages
 <ul>
-  <li>  </li>
-  <li>  </li>
-  <li>  </li>
+  <li> Dependent on the development team’s ability and on following Lean principles, which requires extremely dedicated and talented developers. </li>
+  <li> It is easier to lose focus since various tasks are divided into a number of elements. </li>
+  <li> Requires some documents, in particular on the characteristics of the business that is the subject of the work. Otherwise, there is a risk that the development may be carried out incorrectly and present errors. </li>
 </ul>
 
 
 ![Lean Development](https://github.com/S3-HSDM/Portfolio/blob/main/images/Lean.png?raw=true)
 
 ## My own project
+The methodology I choose for my Individual Project is Kanban. In my IP I had no periodic sprints like in Scrum, but I had a continuous delivery of features, so picking the Kanban methodology suited me best. Also Kanban is best when the project doesn't change too much, which is fine since the development team in the IP, have the same vision. Also since I had weekly meet-ups with the stakeholder, there was transparency for the whole team. To keep track of the features which are done or in progress I created a Kanban board in Github. I also kept track of the user stories in this board.
 
+![Kanban Board IP](https://github.com/S3-HSDM/Portfolio/blob/main/images/KanbanIP.png?raw=true)
 
 ### Sources:
 [Source 1 - Advantages and Disadvantages of Agile Project Management](https://activecollab.com/blog/project-management/agile-project-management-advantages-disadvantages) </br>
