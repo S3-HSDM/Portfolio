@@ -12,6 +12,8 @@ For this project I work according to the Agile ideology. I do this by working wi
 ## Software design
 Before I could start coding for my web application I made Requirements, functional and non-functional. With those requirements I created user stories for my project. After the user stories I created a C4-model for my project. Those user stories and diagrams can be found in my documentation files. [Analysis Document](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Documentation.md)
 
+For my UI design I followed the UX Method Competitive Analysis. To achieve this method I took inspiration from the Hearthstone and Hearthpwn web pages shown in the Introduction. For the Card overview page I used the Hearthstone page to find a way to show all the available ways to filter the cards, without creating a chaos of buttons or dropdowns where users could get lost.
+
 ## Learning Outcomes (LO)
 For this semester we have to match some learning outcomes. These learning outcomes are displayed [here](https://github.com/S3-HSDM/Portfolio/blob/main/Learning%20Outcomes.md).
 
