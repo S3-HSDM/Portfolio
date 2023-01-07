@@ -30,7 +30,7 @@ For my research I will be using 2 of the strategies, Library and Workshop resear
 
 ## Research Questions
 
-### Create authentication my self or use a authentication framework
+### Create authentication my self or use a authentication framework (Library Research)
 The first consideration of creating authentication for my IP is, do I create it myself or do I make use of existing authentication frameworks. If I would create the authentication myself I would have to take a lot of security issues in mind. According to research there are 11 common vulnerabilities when is comes to authentication. These are:
 1. **Flawed Brute-Force Protection:** A brute-force attack, such as a dictionary attack, is an attempt to gain illegal access to a system or user’s account by entering large numbers of randomly generated or pregenerated combinations of usernames and passwords until they find one that works. If there’s a flawed brute-force protection system such as a flaw in the authentication logic, firewall, or secure shell (SSH) protocol, attackers can hijack login credentials and processes, compromising the security of user credentials.
 2. **Weak Login Credentials:** When users register for an account on a site or application that uses password-based logins, they’re prompted to create a username and password. However, if the password is predictable, this can lead to vulnerabilities in the authentication process. Predictable usernames can make it easier for attackers to target specific users. Rather than using a full brute-force attack, the attackers will look for accounts with easy-to-guess passwords, which are used far too often. They’ll try common credentials like "admin," "admin1," and "password1." With no restrictions on weak passwords, even sites protected against brute-force attacks can find themselves compromised.
@@ -51,8 +51,75 @@ The first consideration of creating authentication for my IP is, do I create it 
 #### Conclusion
 For my IP I will be using a Authentication framework. The common vulnerabilities have already been tackled by well known frameworks. They are trusted frameworks and there would be no gain in creating the authentication myself, since the frameworks are relatively easy to implement and probably better implemented then I could myself.
 
-### Which frameworks are available for Javascript
+### Which frameworks are available for Javascript and what are the (dis)advantages of those frameworks (Library Research)
+Since there are a lot of authentication frameworks it's hard to keep track of all frameworks. Therefor I looked around for best known frameworks and found a top 5 of best authentication frameworks. These 5 are:
+- Auth0
+- Passport
+- Keycloak
+- NextAuth
+- Passport-oauth2
+
+The logical follow up question would be, which framework is suitable for my project and what are the (dis)advantages of those frameworks.
+
+#### Auth0
+Auth0 is user authentication and authorization platform that serves as a front door to your application. Historically, the most common method is email and password authentication. An interface was needed that collects the credentials. Those credentials were passed off to a server and database to store on the backend for future use. Auth0 is a universal solution to handle all these concerns. It provides an appealing login that can be used in any web or mobile app while providing the structure to store that data securely. Auth0 handles authentication methods like:
+- Open ID Connect: It is like an identification layer used by third-party applications in order to identify the user information and get its profile information.
+- Multi-factor Authentication: is a process to authenticate a user by using two or more ways.
+- Biometric or face recognition: is also an authentication process that uses the user’s face and thumb or fingerprint expression in order to authenticate a person.
+
+#### Passport
+Passport js is an extremely flexible JavaScript user authentication library for Node.js. This library can be included in any Express-based application without any restriction. This library uses various strategies to authenticate a user. Those authentication strategies are:
+- Username and Password
+- Google account
+- Facebook account
+- Twitter account
+
+Passport.js also uses sessions which makes user authentication more effective and secure.
+
+#### Keycloak
+This authentication library is an open-source I.A.M (Identity & Access Management) system. It is a JavaScript authentication library for node.js. Authentication and authorization are performed by this library for the latest technology applications and services. Keycloak uses a separate server to configure and secure applications. Keycloak uses standard protocols like Open ID connect, 0Auth 2.0, and SAML to make sure that the application is secure. This library uses single login and logout which means applications redirect the user to the keycloak server where they enter their credentials in order to get access to all their connected accounts at once. 
+
+#### NextAuth
+NextAuth is an open-source JavaScript authentication library for next.js. This library uses protocols like Auth0, OpenID connect, and Auth0 2.0. It provides built-in support for countless signing-in services. It also uses LDAP and active directory to allow stateless authentication for any backend which states that it uses session information that is stored on the client-side. The best part is that NextAuth js is a serverless library that allows JWT (JSON Web Token) for authentication. NextAuth library allows email and passwordless authentication. We can use this library with or without a database which means that a user can use this library with any database or bring its own database
+
+#### Passport-oauth2
+Passport-oauth2 library is an authentication module that uses OAuth (Open Authentication) protocol in a passport js library in order to authenticate Node.js applications. In this library, a third-party account is combined with OAuth 2.0 tokens in order to authenticate a user. Following are the distinctive features of passport-oauth2: 
+- Registration for web-based client apps which means it registers users’ devices in order to enable some special services.
+- It generates access tokens, authorizations codes, and refresh tokens to authenticate the user.
+- It uses JWT (JSON Web Token) in order to transfer security information between server and client.
+
+#### Conclusion
+There is not really a best framework, each framework has it strong points, but Auth0 appeals to me, since it has Multifactor Authentication and is relatively easily implementable to both web and mobile applications. Also Auth0 has a paid and free version, meaning it is very unlike to lose support. Therefor my choice will go to Auth0.
+
+### Prototyping Auth0 in my project (Workshop Research)
+To get started implementing Auth0 in my project I first have to configure Auth0 online. After signing up to Auth0, a new application is created. For the configuration you need the following application setting, Domain & ClientId. Then you need to configure the Callback URL, the Logout URL and the Allowed Web Origins. For me all those URLs are http://localhost:4200 since I'm using Angular.
+![Configure Auth0 URLs](https://github.com/S3-HSDM/Portfolio/blob/main/images/Auth0URLs.png)
+
+After configuring Auht0 online it's time to install the Auth0 SDK in my project by running the command 'npm install @auth0/auth0-angular' in my project. Next I need to configure app.module.ts in my project by adding `AuthModule.forRoot({
+      domain: 'my_domain',
+      clientId: 'my_client_id'
+    }),` in the imports.
+
+![Configure app.module.ts](https://github.com/S3-HSDM/Portfolio/blob/main/images/AppModule.png)
+
+Instead of my_domain & my_client_id I entered the Domain & ClientId from the application settings.
+
+Next I created the Login and Logout button in my app.component.html.
+![Login & Logout Button](https://github.com/S3-HSDM/Portfolio/blob/main/images/LoginLogout.png)
+The Logout button is only visible when an user is authenticated and for the Login button the other way around. When pressed the button triggers either the LoginWithRedirect() or the logout() function from the app.component.ts.
+![Login & Logout Functions](https://github.com/S3-HSDM/Portfolio/blob/main/images/LoginLogoutFunctions.png)
+
+When clicking on the login button you get redirected to the Auth0 login page for my project, where you can log in to get access to your decks.
+![Auth0](https://github.com/S3-HSDM/Portfolio/blob/main/images/Auth0.png)
+
+With these configurations I can use the credentials from the users, without needing to save this information to my database. Also I can grant permissions to the users or the admin, which is the only account that can switch to the admin panel to Add, Edit or Delete Cards.
+![LoggedInAs](https://github.com/S3-HSDM/Portfolio/blob/main/images/LoggedInAs.png)
+
+#### Conclusion
+Auth0 is a framework which grants my project the ability to give users permissions and make sure the wrong people can't access pages they aren't allowed to see. It is also relatively easy and fast to setup in your project. The whole process I described above took me about ~30 minutes. Therefor I can say that Auth0 is the right choice for my [project](https://github.com/S3-HSDM/HSDM-FrontEnd).
 
 ## Sources
-[The DOT Framework - ICT Research Methods](https://ictresearchmethods.nl/The_DOT_Framework)
-[11 Common Authentication Vulnerabilities You Need To Know](https://www.strongdm.com/blog/authentication-vulnerabilities)
+[The DOT Framework - ICT Research Methods](https://ictresearchmethods.nl/The_DOT_Framework) </br>
+[11 Common Authentication Vulnerabilities You Need To Know](https://www.strongdm.com/blog/authentication-vulnerabilities) </br>
+[Top 5 Javascript User Authentication Libraries for 2022](https://linuxhint.com/top-5-javascript-user-authentication-libraries-2022/) </br>
+[auth0 Angular SDK Quickstarts: Login](https://auth0.com/docs/quickstart/spa/angular#register-and-configure-the-authentication-module)
