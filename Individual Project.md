@@ -27,6 +27,14 @@ The tests running in the backend can be seen [here](https://github.com/S3-HSDM/H
 
 Regressiontests make sure existing features still work when new code is added to the project. These Regressiontests are very usefull, because you don't have to manually check if the whole project still works when you add a new feature. These Regressiontests consist of the Unittests and the Integrationtest, which run automatically if new code is push to the main branche, because of the CI pipeline.
 
+For my Non-functional requirements I used Lighthouse. This tool helps improving the performance, quality, and correctness web apps. When the tool audits a page it runs a serie of tests on the page and gives a report on how the page performed. The tool also gives tips to help improve the performance of the page. The first score below is from running lighthouse on the Cards page, with the report and tips on how to improve the page. The other score is from the Home Page.
+
+![Performance Lighthouse Card Page](https://github.com/S3-HSDM/Portfolio/blob/main/images/PerformanceLighthouse.png?raw=true)
+![Performance Lighthouse Card Page Improvements](https://github.com/S3-HSDM/Portfolio/blob/main/images/LighthouseImprovements.png?raw=true)
+![Performance Lighthouse Home Page](https://github.com/S3-HSDM/Portfolio/blob/main/images/LighthouseHome.png?raw=true)
+
+From the scores I can conclude the performance is massively reduced by unused Javascript and uncompressed text, so fixing those issues would be the next step in improving the performance of my web application to match my requirements.
+
 ### CD
 For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device.
 
