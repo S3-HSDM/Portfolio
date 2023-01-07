@@ -39,8 +39,9 @@
 
 ### Non-functional requirements
 1. The web application has to be easy to use for the users.
-2. The web application has to be loaded within 10 seconds.
-   - 2.1 The aim will be within 2 seconds.
+2. The web application has to be loaded within 2 seconds.
+   - 2.1 The aim will be within 1 seconds, from [research](https://web.dev/rail/) it has shown that beyond 1 second, users lose focus on the task they are performing.
+3. Personal data from other users won't be available to users or external people.
 
 ### User Stories 
 1.	As an user I want to be able to create an account, so I can create decks.
