@@ -20,8 +20,12 @@ For this semester we have to match some learning outcomes. These learning outcom
 To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend it runs a serie of Unittests, Integrationtests and Regressiontest. For the Frontend it runs Unittest and Regressiontests.
 
 ![Backend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/BackendActions.png?raw=true)
-The tests running in the backend can be seen [here](https://github.com/S3-HSDM/HSDM-BackEnd/tree/main/hsdm/src/test/java/nl/fhict/s3/hsdm). The folders contain the unittests and the HSDMApplicationTests.java file contains the Integrationtests.
+
+The tests running in the backend can be seen [here](https://github.com/S3-HSDM/HSDM-BackEnd/tree/main/hsdm/src/test/java/nl/fhict/s3/hsdm). The folders contain the Unittests and the HSDMApplicationTests.java file contains the Integrationtests.
+
 ![Frontend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/FrontendActions.png?raw=true)
+
+Regressiontests make sure existing features still work when new code is added to the project. These Regressiontests are very usefull, because you don't have to manually check if the whole project still works when you add a new feature. These Regressiontests consist of the Unittests and the Integrationtest, which run automatically if new code is push to the main branche, because of the CI pipeline.
 
 ### CD
 For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device.
