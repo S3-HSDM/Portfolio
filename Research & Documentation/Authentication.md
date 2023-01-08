@@ -1,7 +1,7 @@
 # Authentication
 
 ## What and Why
-For my IP I created a Hearthstone Deck Maker. In this application is it possible for everyone to view all available cards and created decks, but the created decks should only be able to be edited by the user that created it. Also to keep the site up-to-date admins or moderators should be able to create, edit or delete Cards, which normal users should have no access to. Therefor it is important for users to log in so they can be granted the right permissions to use in the application. Therefor I want to research a way to create a secure log in where user credentials are kept safe from non-authorized people.
+For my IP I created a Hearthstone Deck Maker. In this application is it possible for everyone to view all available cards and created decks, but the created decks should only be able to be edited by the user that created it. Also to keep the site up-to-date admins or moderators should be able to create, edit or delete Cards, which normal users should have no access to. Therefor it is important for users to log in so they can be granted the right permissions to use in the application. Therefor I want to research a way to create a secure log in where user credentials are kept safe from non-authorized people. So the main question I want to answer is How can I authenticate my users in a secure way?
 
 ## How
 To execute this research I will make use of the DOT Framework. The DOT Framework consists of 5 research strategies.
@@ -116,7 +116,10 @@ With these configurations I can use the credentials from the users, without need
 ![LoggedInAs](https://github.com/S3-HSDM/Portfolio/blob/main/images/LoggedInAs.png)
 
 #### Conclusion
-Auth0 is a framework which grants my project the ability to give users permissions and make sure the wrong people can't access pages they aren't allowed to see. It is also relatively easy and fast to setup in your project. The whole process I described above took me about ~30 minutes. Therefor I can say that Auth0 is the right choice for my [project](https://github.com/S3-HSDM/HSDM-FrontEnd).
+Auth0 is a framework which grants my project the ability to give users permissions and make sure the wrong people can't access pages they aren't allowed to see. It is also relatively easy and fast to setup in your project. The whole process I described above took me about ~30 minutes.
+
+## Conclusion
+I think Auth0 is the right right choice for my [project](https://github.com/S3-HSDM/HSDM-FrontEnd). The reason to assume this are it's fast and easily implemented in my project, it satisfies my requirements for authenticating and autorizing users and it's secure for the users since I don't have to store the users credentials in my database, since Auth0 keeps track of the users credentials.
 
 ## Sources
 [The DOT Framework - ICT Research Methods](https://ictresearchmethods.nl/The_DOT_Framework) </br>
