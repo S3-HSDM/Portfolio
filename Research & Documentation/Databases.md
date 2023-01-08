@@ -26,7 +26,7 @@ Showroom research is done to test your ideas in relation to existing work. Showi
 
 Workshop research is done to explore opportunities. Prototyping, designing and co-creation activities are all ways to gain insights in what is possible and how things could work.
 
-For my research I will be using 2 of the strategies, Library and Workshop research.
+For my research I will be using the strategy Library research.
 
 ## Research Questions
 
@@ -84,7 +84,7 @@ In the chart above, we have different objects linked to one another using method
 - The high complexity can cause performance problems.
 
 #### Relational Databases
-There are dozens of types of databases and one of the most popular database types is relational. A relational database is a DBMS (Database Management Systen) that represents the data in a tabular form of rows and columns. A table is a representation of an entity. Each column in a table represents an attribute of the entity, also known as fields or properties. Each row in a table represents a record, the data associated with an entity. SQL is used to access and manipulate Relational Databases. Each column of a table has a data type that represents the kind of data a column can store. For example, the company name or customer name is a varchar type that can store characters, but a zip code is a numeric field and can store numbers only. Examples of Relational databases are Oracle, MySQL, PostgreSQL and MariaDB.
+There are dozens of types of databases and one of the most popular database types is relational. A relational database is a DBMS (Database Management Systen) that represents the data in a tabular form of rows and columns. A table is a representation of an entity. Each column in a table represents an attribute of the entity, also known as fields or properties. Each row in a table represents a record, the data associated with an entity. SQL is used to access and manipulate Relational Databases. Each column of a table has a data type that represents the kind of data a column can store. For example, the company name or customer name is a varchar type that can store characters, but a zip code is a numeric field and can store numbers only. Examples of Relational databases are Oracle, MySQL, PostgreSQL and MicrosoftSQL.
 
 A table in RDBMS typically has a unique private key (PK) that uniquely identifies each row in a table. The private key can be a single column or a combination of multiple columns. A primary key ensures that each row in a table is unique. PK is also used as a constraint to force data integrity. A table can contain only one primary key. A foreign key (FK) is a column or combination of columns, that is used to create a relationship between two tables. When a PK is referenced in another table, it is called a foreign key on the referenced table.
 ![Relational Database](https://github.com/S3-HSDM/Portfolio/blob/main/images/RelationalDB.png)
@@ -124,11 +124,68 @@ A NoSQL originally referring to non SQL or non-relational is a database that pro
 #### Conclusion
 Since I need a database which can handle relationships between entities the NoSQL databases won't satisfy the requirements for my database. The network database also drops out since my database should be able to easily perform the CRUD functions, which need a lot of pointer adjustment in Network databases. The Hierarchical database also drops out because of the lack of multiple types of relationships, it only support one-to-many relations, where I also need many-to-many relations in my project. Then the choice is between Relational and Object-oriented databases. The choice for me goes to a Relational database, since it has moe support in implementing it in my project. The Relational database is more mature and is used way more than the Object-oriented databases.
 
-## Which Relational Databases are available?
+### Which Relational Databases are available?
+The 4 bigger/more popular Relational databases are Oracle, MySQL, MicrosoftSQL Server and PostgreSQL. Of those 4 databases I have used MySQL before and liked MySQL. For me MySQL was easy to setup and use for the projects I have made in the past.
 
+#### Oracle
+Oracle has provided high-quality database solutions since the 1970s. The most recent version of Oracle Database was designed to integrate with cloud-based systems, and it allows you to manage massive databases with billions of records. Traditionally, Oracle has offered RDBMS solutions. Today, there are, both, SQL and NoSQL database solutions available.
+
+##### Advantages
+- The most advanced technology: Oracle is known for being on the leading edge of database technology. They have a long-standing reputation for bringing quality, along with the latest features and innovations, to their customer base.
+- A wide range of solutions: Oracle offers a massive suite of tools and solutions that can address virtually any information challenges you encounter.
+
+##### Disadvantages
+- An expensive solution: Oracle tends to be a high-cost solution that smaller, non-enterprise-level organizations might not be able to afford.
+- System upgrades might be required: Your current system specifications might not be enough to implement Oracle. Many businesses have to upgrade their hardware before using Oracle solutions.
+
+**Best use case for Oracle:** If you’re a large organization that needs to manage a massive amount of data, Oracle could be the ideal choice.
+
+#### MySQL
+MySQL is a free, open-source RDBMS solution that Oracle owns and manages. Even though it’s freeware, MySQL benefits from frequent security and features updates. Large enterprises can upgrade to paid versions of MySQL to benefit from additional features and user support. Although MySQL didn't support NoSQL in the past, since Version 8, it provides NoSQL support to compete with other solutions like PostgreSQL.
+
+##### Advantages
+- It’s free: As an open-source RDBMS solution, MySQL is free to use in any way you want.
+- Highly compatible with other systems: MySQL has a reputation for being compatible with many other database systems.
+
+##### Disadvantages
+- Missing features common to other RDBMSs: Because MySQL prioritizes speed and agility over features, you might find that it’s missing some of the standard features found in other solutions. For example, the ability to create incremental backups.
+- Challenges getting quality support: The free version of MySQL does not come with on-demand support. However, MySQL does have an active volunteer community, user forums, and a lot of documentation that you may find useful. 
+
+**Best use case for MySQL:** MySQL is a particularly valuable RDBMS solution for businesses that need a solution with enterprise-level capabilities, but are operating under strict budget constraints. It is an extremely powerful and reliable modern RDBMS with a free tier.
+
+#### MicrosoftSQL Server
+MicrosoftSQL Server is a database engine that is compatible with, both, on-site and cloud-based servers. Moreover, there is a Windows and a Linux version of Microsoft SQL. In 2016, Microsoft also added temporal data support. The feature is useful for querying historical data whose state might have changed. Microsoft SQL Server also supports dynamic data masking, which boosts security by masking sensitive information from non-privileged users.
+
+##### Advantages
+- It's mobile: This database engine allows you to access dashboard graphics and visuals via mobile devices.
+- Integrates with Microsoft products: Companies that rely heavily on Microsoft products will enjoy the way SQL Server integrates easily with these applications.
+- It's fast: Microsoft SQL Server has built a reputation around being fast and stable.
+
+##### Disadvantages
+- It's expensive: Considering that there are plenty of free database engines available, the cost of Microsoft SQL Server is steep. It's over $14,000 for one enterprise-level license per core. There are scaled-down licensing options for approximately $3,700 and $900, and a free version you can use to test the platform.
+- Requires a lot of resources: This resource-heavy RDBMS may require you to purchase better hardware. Here is a review of Microsoft SQL Server that highlights the issue.
+
+**Best use case for Microsoft SQL Server:** If you're an enterprise-level corporation that relies heavily on Microsoft products, the speed, agility, and reliability of Microsoft SQL Server could be an excellent choice.
+
+#### PostgreSQL
+PostgreSQL is an open-source, free database engine with unlimited scaling capabilities. PostgreSQL supports both relational and non-relational data formats. As a highly trusted DBMS that has been around since the early 1990s, PostgreSQL has a devoted user base and has won the prestigious Database of the Year Award, twice. An interesting feature of PostgreSQL is its history of working with both structured (SQL) and unstructured (NoSQL) data. PostgreSQL has a catalog-driven approach, which makes it highly extensible. It doesn’t simply store information to identify tables and columns. It allows you to define data types, index types, and functional languages. It's also compatible with most operating systems, including Linux platforms, and it integrates well with data from a wide variety of databases. PostgreSQL also works with, both, on-site servers and cloud-based servers. Even though it's a non-profit, free database system, a large network of devoted followers and volunteers offer free support to users and regularly update the system.
+
+##### Advantages
+- More features: PostgreSQL has a lot more features than other DBMSs. These extra features include table inheritance, a rich set of data types (including native support for JSON), ability to define a column as an "array" of column types, among others.
+- Highly ACID (Atomicity, Consistency, Isolation, and Durability) Compliant: PostgreSQL consistently ranks as the most ACID-compliant DBMS. If data integrity is your top priority, PostgreSQL could be an ideal choice.
+- Massive Scalability: PostgreSQL can work with massive database tables. 
+
+##### Disadvantages
+- Lack of documentation: PostgreSQL doesn't have the best documentation compared to other database engines. If you run into an issue, you might need to seek help from a private PostgreSQL support firm, or try your luck with the community support forums.
+- Issue of speed with read-only operations: PostgreSQL excels with read-write operations for data that needs validation, but slowdowns could happen when working with read-only operations.
+
+**Best use case for PostgreSQL:** Since PostgreSQL is completely free and scalable, this is an excellent solution for companies of any size. More importantly, if you can benefit from a DBMS with native JSON support, PostgreSQL is for you.
+
+#### Conclusion
+Since the Oracle and MicrosoftSQL server aren't for free, those options are ruled out. Therefor two options are left, MySQL and PostgreSQL. For my project I don't need a lot of fancy features, but I need a solution that provides the stored data fast and reliable. Also the lack of documentation for PostgreSQL can be an issue, since I would heavily rely on support of the userbase.
 
 ## Conclusion
-
+To answer the main question of my research I would say MySQL is the best fit for my IP. It's free to use, the database has no clunky features, which make it fast and reliable. Also I have used the database myself before and know it's easy and quick to setup. PostgreSQL would be a good alternative, it's also a free to use database, but it focuses more on features. It isn't really clear which of those two databases is faster but PostgreSQL is thought to be faster  for handling massive data sets, complicated queries, and read-write operations. MySQL is thought to be faster with read-only commands, which is the main functionality for my project.
 
 ## Sources
 [Types of Databases](https://www.geeksforgeeks.org/types-of-databases/) </br>
@@ -138,4 +195,5 @@ Since I need a database which can handle relationships between entities the NoSQ
 [What is a Relational Database (RDBMS)](https://www.c-sharpcorner.com/article/what-is-a-relational-database/) </br>
 [Relational Database Benefits and Limitations (Advantages & Disadvantages)](https://databasetown.com/relational-database-benefits-and-limitations/) </br>
 [What are the Pros and Cons of NoSQL](https://www.adservio.fr/post/what-are-the-pros-and-cons-of-nosql#:~:text=The%20top%20advantages%20of%20NoSQL,less%20mature%2C%20less%20flexible%20queries.&text=Queries%20are%20less%20flexible.&text=NoSQL%20isn't%20designed%20to%20scale%20by%20itself.) </br>
-
+[Which Database Is Right for Your Use Case?](https://www.integrate.io/blog/which-database/) </br>
+[PostgreSQL vs MySQL: The Critical Differences](https://www.integrate.io/blog/postgresql-vs-mysql-which-one-is-better-for-your-use-case/#ismysqlorpostgresqlfaster)
