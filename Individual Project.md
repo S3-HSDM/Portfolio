@@ -54,3 +54,6 @@ Clean code is important for Software Quality as are the automated tests. Another
 
 ## Web application (LO-1)
 For my IP I have created a full-stack web application, Hearthstone Deck Maker (HSDM). Sadly I haven't been able to implement all the user stories I came up with, but the application contains fully functional CRUD operations for the Card entity. All the users are able to see all the cards (Read), when a user is logged in as an admin he is also able to Create Cards, Update Cards and Delete Cards. The code for my application are available here. [Backend](https://github.com/S3-HSDM/HSDM-BackEnd) & [Frontend](https://github.com/S3-HSDM/HSDM-FrontEnd)
+
+## Professional (LO-8)
+To optimize my IP I have done research into new technologies, research to decide the right languages and frameworks and research to implement secure authentication for my application. Those research reports are available [here](https://github.com/S3-HSDM/Portfolio/tree/main/Research%20%26%20Documentation). Further I have had weekly meetings with the stakeholder and discussed the progress and which steps to take next. The Feedback of those meeting can be found [here](https://github.com/S3-HSDM/Portfolio/blob/main/images/FeedPulse.pdf).
