@@ -124,6 +124,9 @@ A NoSQL originally referring to non SQL or non-relational is a database that pro
 #### Conclusion
 Since I need a database which can handle relationships between entities the NoSQL databases won't satisfy the requirements for my database. The network database also drops out since my database should be able to easily perform the CRUD functions, which need a lot of pointer adjustment in Network databases. The Hierarchical database also drops out because of the lack of multiple types of relationships, it only support one-to-many relations, where I also need many-to-many relations in my project. Then the choice is between Relational and Object-oriented databases. The choice for me goes to a Relational database, since it has moe support in implementing it in my project. The Relational database is more mature and is used way more than the Object-oriented databases.
 
+## Which Relational Databases are available?
+
+
 ## Conclusion
 
 
