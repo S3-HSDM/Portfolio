@@ -9,13 +9,13 @@ For the deck overview I got my inspiration mainly from [HearthPwn](https://www.h
 ## Project choices
 For this project I work according to the Agile ideology. I do this by working with Kanban method. Therefor I created a Kanban board on [Github](https://github.com/orgs/S3-HSDM/projects/1). The reason to choose for Kanban come from research I have done towards [Agile](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Agile.md) working. The languages and frameworks I use for my Individual Project are Java Spring Boot for the Backand of the project and Javascript Angular for the Frontend. The database will be a MySQL database. The reasoning for choosing these languages/frameworks are further explained in my research files. [Backend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Java%20Backend%20Research.md), [Frontend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Javascript%20Frontend%20Research.md) & [Database](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20&%20Documentation/Databases.md).
 
-## Software design
+## Learning Outcomes (LO)
+For this semester we have to match some learning outcomes. These learning outcomes are displayed [here](https://github.com/S3-HSDM/Portfolio/blob/main/Learning%20Outcomes.md).
+
+## Software design (LO-6)
 Before I could start coding for my web application I made Requirements, functional and non-functional. With those requirements I created user stories for my project. After the user stories I created a C4-model for my project. Those user stories and diagrams can be found in my documentation files. [Analysis Document](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Documentation.md)
 
 For my UI design I followed the UX Method Competitive Analysis. To achieve this method I took inspiration from the Hearthstone and Hearthpwn web pages shown in the Introduction. For the Card overview page I used the Hearthstone page to find a way to show all the available ways to filter the cards, without creating a chaos of buttons or dropdowns where users could get lost.
-
-## Learning Outcomes (LO)
-For this semester we have to match some learning outcomes. These learning outcomes are displayed [here](https://github.com/S3-HSDM/Portfolio/blob/main/Learning%20Outcomes.md).
 
 ## CI/CD (LO-4)
 ### CI
@@ -41,3 +41,14 @@ From the scores I can conclude the performance is massively reduced by unused Ja
 For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device.
 
 ![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/Docker.png?raw=true)
+
+## Software Quality (LO-2)
+The tests that I have written for my CI are also a way to ensure the Software Quality of my project. These are automated tests which will run everytime new code is pushed to the main branche, ensuring the Software Quality of the main branche. In my CI pipeline I've also integrated a workflow for Sonarcloud. Sonarcloud is a tool that checks my project for clean code, it looks for bugs, vulnerabilities, security hotspots, code smells and duplicated code. Everytime new code is pushed to the main branche it checks for these 5 points and returns a report for code to improve, enhancing the Software Quality of my project. The first time I ran Sonarcloud on my project it came up with multiple issues.
+![Sonarcloud Before](https://github.com/S3-HSDM/Portfolio/blob/main/images/SonarCloudBefore.png?raw=true)
+After checking the report returned by Sonarcloud I improved the quality of the code in my project, resolving the issues found by Sonarcloud.
+![Sonarcloud After](https://github.com/S3-HSDM/Portfolio/blob/main/images/SonarCloudAfter.png?raw=true)
+
+Clean code is important for Software Quality as are the automated tests. Another good way to improve the Software Quality are Integration test from Postman. These Integration tests send HTTP requests to the endpoints of my Backend and check if the Backend returns correctly. The tests check if the request returns the correct statuscode and if necessary if the request returns a body.
+![Postman Tests](https://github.com/S3-HSDM/Portfolio/blob/main/images/PostmanTests.png?raw=true)
+![Postman Test Results](https://github.com/S3-HSDM/Portfolio/blob/main/images/PostmanRunTests.png?raw=true)
+
