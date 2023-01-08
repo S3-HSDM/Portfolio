@@ -66,7 +66,7 @@ Certainly, a complex framework, network databases are more capable of representi
 
 ##### Disadvantages
 - System complexity: All the records are maintained using pointers and hence the whole database structure becomes very complex.
-- Operational Anomalies: The insertion,deletion and updating operations of any record require large number of pointers adjustments.
+- Operational Anomalies: The insertion, deletion and updating operations of any record require large number of pointers adjustments.
 - Absence of structural independence: Structural changes to the database is very difficult.
 
 #### Object-oriented Databases
@@ -90,18 +90,39 @@ A table in RDBMS typically has a unique private key (PK) that uniquely identifie
 ![Relational Database](https://github.com/S3-HSDM/Portfolio/blob/main/images/RelationalDB.png)
 
 ##### Advantages
+- Simplicity of Model: In contrast to other types of database models, the relational database model is much simpler. It does not require any complex queries because it has no query processing or structuring so simple SQL queries are enough to handle the data.
+- Ease of Use: Users can easily access/retrieve their required information within seconds without indulging in the complexity of the database. Structured Query Language (SQL) is used to execute complex queries.
+- Accuracy: A key feature of relational databases is that they’re strictly defined and well-organized, so data doesn’t get duplicated. Relational databases have accuracy because of their structure with no data duplication.
+- Data Integrity: RDBMS databases are also widely used for data integrity as they provide consistency across all tables. The data integrity ensures the features like accuracy and ease of use.
+- Normalization: Database normalization also ensures that a relational database has no variety or variance in its structure and can be manipulated accurately. This ensures that integrity is maintained when using data from this database for your business decisions.
+- Collaboration: Multiple users can access the database to retrieve information at the same time and even if data is being updated.
+- Security: Data is secure as Relational Database Management System allows only authorized users to directly access the data. No unauthorized user can access the information.
 
 ##### Disadvatages
+- Maintenance Problem: The maintenance of the relational database becomes difficult over time due to the increase in the data. Developers and programmers have to spend a lot of time maintaining the database.
+- Cost: The relational database system is costly to set up and maintain.
+- Physical Storage: A relational database is comprised of rows and columns, which requires a lot of physical memory because each operation performed depends on separate storage. The requirements of physical memory may increase along with the increase of data.
+- Lack of Scalability: While using the relational database over multiple servers, its structure changes and becomes difficult to handle, especially when the quantity of the data is large. Due to this, the data is not scalable on different physical storage servers. Ultimately, its performance is affected i.e. lack of availability of data and load time etc. As the database becomes larger or more distributed with a greater number of servers, this will have negative effects like latency and availability issues affecting overall performance.
+- Complexity in Structure: Relational databases can only store data in tabular form which makes it difficult to represent complex relationships between objects. This is an issue because many applications require more than one table to store all the necessary data required by their application logic.
+- Decrease in performance over time: The relational database can become slower, not just because of its reliance on multiple tables. When there is a large number of tables and data in the system, it causes an increase in complexity. It can lead to slow response times over queries or even complete failure for them depending on how many people are logged into the server at a given time.
 
+#### NoSQL Databases
+A NoSQL originally referring to non SQL or non-relational is a database that provides a mechanism for storage and retrieval of data. This data is modeled in means other than the tabular relations used in relational databases. A NoSQL database includes simplicity of design, simpler horizontal scaling to clusters of machines, and finer control over availability. The data structures used by NoSQL databases are different from those used by default in relational databases which makes some operations faster in NoSQL. The suitability of a given NoSQL database depends on the problem it should solve. Data structures used by NoSQL databases are sometimes also viewed as more flexible than relational database tables. NoSQL databases can be categorized in the following five major categories; Column, Document, GraphKey-value, Object & databases. Examples of NoSQL databases are MongoDB, ArangoDB and CosmosDB.
 
+##### Advantages
+- Flexible scalability: They can be scaled horizontally as opposed to vertically, which provides a clear advantage over SQL databases.
+- Flexible data types: NoSQL databases allow you to store and retrieve data with only limited or no requirements for the predefined schema. 
+- Large amounts of data storage: Many NoSQL databases can handle extensive datasets, making them ideal for big data applications, IoT (Internet of Things), and other real-time analytics.
+- Simplicity and less code: Many NoSQL database management systems require only a few lines of code, which is ideal for developers who want to get started quickly.
+- Less ongoing database maintenance: NoSQL databases don't require the same level of ongoing database administration as traditional relational databases because they can automatically partition and replicate information across nodes.
 
-
-
-
-
+##### Disadvantages
+- Queries are less flexible: NoSQL databases are more flexible when storing a wide variety of data structures, but they lack the complex query functionality found in SQL.
+- Less mature: Since SQL has been around a lot longer, it is generally universal and more mature.
+- NoSQL isn't designed to scale by itself: While there are ways to scale out your application using some NoSQL database management systems like BigTable or MongoDB replica sets, their design limits the amount of traffic they can accommodate by themselves.
 
 #### Conclusion
-
+Since I need a database which can handle relationships between entities the NoSQL databases won't satisfy the requirements for my database. The network database also drops out since my database should be able to easily perform the CRUD functions, which need a lot of pointer adjustment in Network databases. The Hierarchical database also drops out because of the lack of multiple types of relationships, it only support one-to-many relations, where I also need many-to-many relations in my project. Then the choice is between Relational and Object-oriented databases. The choice for me goes to a Relational database, since it has moe support in implementing it in my project. The Relational database is more mature and is used way more than the Object-oriented databases.
 
 ## Conclusion
 
@@ -112,5 +133,6 @@ A table in RDBMS typically has a unique private key (PK) that uniquely identifie
 [Netwerk model and their Advantages and Disadvantages](http://dbmsenotes.blogspot.com/2014/03/comparison-of-data-models-data-models.html) </br>
 [Object-oriented database: Explenation + Advantages & Disadvantages](https://www.ionos.com/digitalguide/hosting/technical-matters/object-oriented-databases/) </br>
 [What is a Relational Database (RDBMS)](https://www.c-sharpcorner.com/article/what-is-a-relational-database/) </br>
-
+[Relational Database Benefits and Limitations (Advantages & Disadvantages)](https://databasetown.com/relational-database-benefits-and-limitations/) </br>
+[What are the Pros and Cons of NoSQL](https://www.adservio.fr/post/what-are-the-pros-and-cons-of-nosql#:~:text=The%20top%20advantages%20of%20NoSQL,less%20mature%2C%20less%20flexible%20queries.&text=Queries%20are%20less%20flexible.&text=NoSQL%20isn't%20designed%20to%20scale%20by%20itself.) </br>
 
