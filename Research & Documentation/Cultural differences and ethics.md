@@ -77,10 +77,30 @@ One of the Ethical issues I've encountered in my own project is the Security and
 
 
 ## Cultural Differences
+### What is Culture?
+Culture is an umbrella term which encompasses the social behavior, institutions, and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, capabilities, and habits of the individuals in these groups. Humans acquire culture through the learning processes of enculturation and socialization, which is shown by the diversity of cultures across societies. In other words you could say culture is the opposite of nature, since nature is everything you're born with and culture is everything you've learned.
 
+### Which are well-known dimensions on cultural differences? 
+Cultural differences are the various beliefs, behaviors, languages, practices and expressions considered unique to members of a specific ethnicity, race or national origin. Some examples of cultural differences as they pertain to the workplace include employees who are younger or older than their co-workers, employees who hold higher degrees than others in the workplace and individuals who grew up in either metropolitan areas or small towns.
+
+Hofstede's cultural dimensions theory is a framework for cross-cultural communication, developed by Geert Hofstede. It shows 6 dimensions on cultural differences.
+
+![Hofstede's Cultural Dimensions Theory](https://github.com/S3-HSDM/Portfolio/blob/main/images/Hofstede.png)
+
+- **Power distance index (PDI):** The power distance index is defined as "the extent to which the less powerful members of organizations and institutions (like the family) accept and expect that power is distributed unequally". A higher degree of the Index indicates that hierarchy is clearly established and executed in society, without doubt or reason. A lower degree of the Index signifies that people question authority and attempt to distribute power.
+- **Individualism vs. collectivism (IDV):** This index explores the "degree to which people in a society are integrated into groups". Individualistic societies have loose ties that often only relate an individual to his/her immediate family. They emphasize the "I" versus the "we". Its counterpart, collectivism, describes a society in which tightly integrated relationships tie extended families and others into in-groups. These in-groups are laced with undoubted loyalty and support each other when a conflict arises with another in-group.
+- **Uncertainty avoidance (UAI):** The uncertainty avoidance index is defined as "a society's tolerance for ambiguity", in which people embrace or avert an event of something unexpected, unknown, or away from the status quo. Societies that score a high degree in this index opt for stiff codes of behavior, guidelines, laws, and generally rely on absolute truth, or the belief that one lone truth dictates everything and that people know what it is. A lower degree in this index shows more acceptance of differing thoughts or ideas. Society tends to impose fewer regulations, ambiguity is more accustomed to, and the environment is more free-flowing.
+- **Masculinity vs. femininity (MAS):** In this dimension, masculinity is defined as "a preference in society for achievement, heroism, assertiveness, and material rewards for success." Its counterpart represents "a preference for cooperation, modesty, caring for the weak, and quality of life." Women in the respective societies tend to display different values. In feminine societies, they share modest and caring views equally with men. In more masculine societies, women are somewhat assertive and competitive, but notably less than men. In other words, they still recognize a gap between male and female values. This dimension is frequently viewed as taboo in highly masculine societies.
+- **Long-term orientation vs. short-term orientation (LTO):** This dimension associates the connection of the past with the current and future actions/challenges. A lower degree of this index (short-term) indicates that traditions are honored and kept, while steadfastness is valued. Societies with a high degree in this index (long-term) view adaptation and circumstantial, pragmatic problem-solving as a necessity. A poor country that is short-term oriented usually has little to no economic development, while long-term oriented countries continue to develop to a level of prosperity.
+- **Indulgence vs. restraint (IND):** This dimension refers to the degree of freedom that societal norms give to citizens in fulfilling their human desires. Indulgence is defined as "a society that allows relatively free gratification of basic and natural human desires related to enjoying life and having fun". Its counterpart is defined as "a society that controls gratification of needs and regulates it by means of strict social norms".
 
 ## Sources
+#### Ethics
 [Wikipedia - Ethics](https://en.wikipedia.org/wiki/Ethics) </br>
 [Code of Ethics - IEEE Computer Society](https://www.computer.org/education/code-of-ethics) </br>
 [5 examples of ethical issues in software development](https://www.techtarget.com/searchsoftwarequality/tip/5-examples-of-ethical-issues-in-software-development) </br>
 [Everthing to Know About Software Engineering Ethics](https://fellow.app/blog/engineering/engineering-everything-you-need-to-know-about-software-engineering-ethics/) </br>
+#### Cultural differences
+[Wikipedia - Culture](https://en.wikipedia.org/wiki/Culture) </br>
+[What is Cultural Differences](https://www.mightyrecruiter.com/recruiter-guide/hiring-glossary-a-to-z/cultural-differences/) </br>
+[Wikipedia - Hofstede's cultural dimensions theory](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory) </br>
