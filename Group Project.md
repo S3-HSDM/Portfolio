@@ -1,29 +1,29 @@
 # Group Project for World of Content; The Webshop Scraper Is-It-Live
 
-## Cultural differences and ethics
+## Cultural differences and ethics (LO-5)
 For cultural differences and ethics to some ethical questions in the world of software development and questioned myself where I draw the line for developing software like facial recognition and ownership of personal data and the protection of this data, but also the design of webpages, which can be misleading or addictive. After that I evaluated my own project for ethical questions.
 
 [Cultural differences & Ethics](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md)
 
-## Business processes 
+## Business processes (LO-7)
 For business process I did research towards what a business process is. After the research I created a business process for a customer buying a product in a webshop, but since this process only describes 1 person who is also not part of the business, it didn't really describe a business process. That's why I made another business process of a customer online returning a product. 
 
 [Business Processes](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Business%20processes.md)
 
-## Agile method
+## Agile method (LO-3)
 To work Agile I have done research towards the principles of working Agile and the different ways to execute this.
 
 [Agile](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Agile.md)
 
 # Group project for World of Content (WoC)
-## Agile
+## Agile (LO-3)
 As a team we chose to work the SCRUM agile method. So on a daily basis we had several meetings and created an environment where we summed up all of the issues withing the project. Every meeting we took the time to look at the issues and speak up your mind about problems that we were having. That meant that we could all help eachother out and work out the issues one by one.
 
 ## Issues
 We created issues to keep track of all the things that we need to do as a team, to finish the project. Everyone can create issues, not everyone can assign them to one another. Every issue comes with it's own description and checklist of things that must be done to finish the issue.
 ![Issues](https://github.com/S3-HSDM/Portfolio/blob/main/images/Issues.png?raw=true)
 
-## Working as a team
+## Working as a team  (LO-3 & LO-8)
 We managed to make it work as a team by making use of the agile method: SCRUM. Also by communicating to one another and having meetings offline- aswell as online. If anyone of us had a problem that we faced, there was always someone to help out and eliminate the issue. Before we started working on the project, we looked at everyones needs and what they wanted to do within the project. For example, Dirk and i are more interested in the frontend and dus React JS, so we started working on that. While te other team members decided to be more involved in the backend of the project, which worked well. Eventually we mamaged to make great progress every sprint and show WoC that we were able to create a webapp based on their requirements.
 
 ### What went right?
@@ -77,5 +77,9 @@ The livescore is momenteraly calculated by comparing one snapshot to the existin
 
 The livescore is calculated in the frontend of the project, since it doesn't need to be saved in the backend database.
 
-### Software Quality
+### Software Quality (LO-2)
 For the quality of the RestAPI we have created Postman tests to ensure the endpoints are working. We also have deployed the project on Docker in 4 containers: Frontend, Backend, Database and one for the Scrapers.
+
+### Docker (LO-4)
+We have also deployed our Is-It-Live project with Docker. We have created a Docker-compose file which creates 4 containers, 1 for the Frontend, 2 for the Backend (1 for the logic and 1 for the Scrapers) and 1 for the Mongo Database.
+![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/DockerWoC.png?raw=true)
