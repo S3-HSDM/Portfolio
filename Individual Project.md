@@ -19,7 +19,7 @@ For my UI design I followed the UX Method Competitive Analysis. To achieve this 
 
 ## CI/CD (LO-4)
 ### CI
-To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend it runs a serie of Unittests, Integrationtests and Regressiontest. For the Frontend it runs Unittest and Regressiontests.
+To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend it runs a serie of Unittests, Integrationtests and Regressiontest. For the Frontend it also runs Unittest, Integrationtests and Regressiontests.
 
 ![Backend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/BackendActions.png?raw=true)
 
