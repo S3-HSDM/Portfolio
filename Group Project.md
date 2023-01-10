@@ -95,4 +95,3 @@ Although it gives you all the information it needs, the page could be more user 
 In the table overview it is shown the scraper does it's job well. The product it can find have matching EAN-numbers and the product which it says isn't online is also not possible to find in the Jumbo webshop.
 
 Furthermore I have worked on the Backend, creating a functional endpoint to add the products to the database and I've created an seeder thats adds the Jumbo products to the database. I've also worked on the Frontend, creating the PageNotFound page and the RetailerNotFound page and setting up the routing for these pages.
-
