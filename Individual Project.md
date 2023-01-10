@@ -37,6 +37,9 @@ For my Non-functional requirements I used Lighthouse. This tool helps improving 
 
 From the scores I can conclude the performance is massively reduced by unused Javascript and uncompressed text, so fixing those issues would be the next step in improving the performance of my web application to match my requirements.
 
+After researching I found a way to reduce the size of the Javascript by editing configurations in the angular.json and package.json, which massively increased the performance for my application.
+![Performance Lighthouse Card Page Improvemed](https://github.com/S3-HSDM/Portfolio/blob/main/images/LighthouseImprovemed.png?raw=true)
+
 ### CD
 For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device.
 
@@ -57,3 +60,21 @@ For my IP I have created a full-stack web application, Hearthstone Deck Maker (H
 
 ## Professional (LO-8)
 To optimize my IP I have done research into new technologies, research to decide the right languages and frameworks and research to implement secure authentication for my application. Those research reports are available [here](https://github.com/S3-HSDM/Portfolio/tree/main/Research%20%26%20Documentation). Further I have had weekly meetings with the stakeholder and discussed the progress and which steps to take next. The Feedback of those meeting can be found [here](https://github.com/S3-HSDM/Portfolio/blob/main/images/FeedPulse.pdf).
+
+## My perspective
+### Web Application
+
+### Software Quality
+
+### Agile Method
+
+### CI/CD
+
+### Cultural Differences & Ethics
+
+### Requirements & Design
+
+### Business Processes
+
+### Professional
+
