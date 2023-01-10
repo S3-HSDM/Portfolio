@@ -83,3 +83,16 @@ For the quality of the RestAPI we have created Postman tests to ensure the endpo
 ### Docker (LO-4)
 We have also deployed our Is-It-Live project with Docker. We have created a Docker-compose file which creates 4 containers, 1 for the Frontend, 2 for the Backend (1 for the logic and 1 for the Scrapers) and 1 for the Mongo Database.
 ![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/DockerWoC.png?raw=true)
+
+### My contributions to the group project
+I've mostly worked on the Jumbo webscraper for our Is-It-Live application. We as a group have chosen to create the Backend including the webscrapers in NodeJS. The scraper first gets the EAN-number of a product from the database. With this EAN-number it searches the Jumbo productID via an API. With this productID the scraper can find the correct webpage of the product and scrape the productinformation from the page. With this information a product snapshot is created, which is stored in the database.
+
+To check if the scraper is still working correctly and to check the statistics of the process I've also created a statistics page for the Jumbo scraper. This page checks if the Jumbo scraper scrapes the correct page by checking the given EAN-number and the found EAN-number on the page and it keeps track of the time the scraper takes to scrape the products.
+![Jumbo Statistics Page](https://github.com/S3-HSDM/Portfolio/blob/main/images/JumboStatistics.png)
+
+Although it gives you all the information it needs, the page could be more user friendly. Improvements for this statistics page could be the use of colors, if an EAN-number doesn't match, make the table cell red and if they do match, make it green. Also the application doesn't really give you the total time of the process, but only a starting time and the time of the product it found last. This could also be displayed as a process time.
+
+In the table overview it is shown the scraper does it's job well. The product it can find have matching EAN-numbers and the product which it says isn't online is also not possible to find in the Jumbo webshop.
+
+Furthermore I have worked on the Backend, creating a functional endpoint to add the products to the database and I've created an seeder thats adds the Jumbo products to the database. I've also worked on the Frontend, creating the PageNotFound page and the RetailerNotFound page and setting up the routing for these pages.
+
