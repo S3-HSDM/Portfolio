@@ -78,13 +78,13 @@ The livescore is momenteraly calculated by comparing one snapshot to the existin
 The livescore is calculated in the frontend of the project, since it doesn't need to be saved in the backend database.
 
 ### Software Quality (LO-2)
-For the quality of the RestAPI we have created Postman tests to ensure the endpoints are working. We also have deployed the project on Docker in 4 containers: Frontend, Backend, Database and one for the Scrapers.
+For the quality of the RestAPI we have created Postman tests to ensure the endpoints are working. We also have deployed the project on Docker in 4 containers: Frontend, Backend, Database and one for the Scrapers. Furthermore we have created for both Scrapers a statistics page, which quickly shows the performance of the Scrapers and if the Scrapers are still working correctly.
 
 ### Docker (LO-4)
 We have also deployed our Is-It-Live project with Docker. We have created a Docker-compose file which creates 4 containers, 1 for the Frontend, 2 for the Backend (1 for the logic and 1 for the Scrapers) and 1 for the Mongo Database.
 ![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/DockerWoC.png?raw=true)
 
-### My contributions to the group project
+### My contributions to the group project (LO-1)
 I've mostly worked on the Jumbo webscraper for our Is-It-Live application. We as a group have chosen to create the Backend including the webscrapers in NodeJS. The scraper first gets the EAN-number of a product from the database. With this EAN-number it searches the Jumbo productID via an API. With this productID the scraper can find the correct webpage of the product and scrape the productinformation from the page. With this information a product snapshot is created, which is stored in the database.
 
 To check if the scraper is still working correctly and to check the statistics of the process I've also created a statistics page for the Jumbo scraper. This page checks if the Jumbo scraper scrapes the correct page by checking the given EAN-number and the found EAN-number on the page and it keeps track of the time the scraper takes to scrape the products.
