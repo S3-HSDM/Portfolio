@@ -69,8 +69,8 @@ Improving Software Quality also includes security testing. Therefor I've tried C
 ![AddCard Function Script XSS result](https://github.com/S3-HSDM/Portfolio/blob/main/images/AddCardXSSResult.png?raw=true)
 ![AddCard Function DropTable XSS](https://github.com/S3-HSDM/Portfolio/blob/main/images/AddCardXSSDropTable.png?raw=true)
 ![AddCard Function DropTable XSS result](https://github.com/S3-HSDM/Portfolio/blob/main/images/AddCardXSSDropTableResult.png?raw=true)
-  
-Sonarcloud also scans the code of my application for security vulnerabilities. From Sonarcloud no security vulnerabilites were found in the main branch of the  Frontend and Backend.
+
+The Cross-site Scripting tests show that the Injected code doesn't reach the DOM. The injected code doesn't run in the DOM, but is stored as a string in the database. Sonarcloud also scans the code of my application for security vulnerabilities. From Sonarcloud no security vulnerabilites were found in the main branch of the  Frontend and Backend.
 
 Running Sonarcloud everytime code is added to the main branche and resolving code smells, bugs and vulnerabilities helps me demonstrate my proficiency at Learning Outcome 2.
 
