@@ -15,6 +15,7 @@ From the workshop I've learned that these days Software is takes an important pa
 **Key Performance Indicators** are the critical quantifiable indicators of progress toward an intended result.
 
 ![Business Process Management Cycle](https://github.com/S3-HSDM/Portfolio/blob/main/images/BusinessProcessManagementCycle.png)
+
 Business Process Management is never finished, because there is always something you can optimize, despite how small a process can be, which is why it's a cycle.
 
 ## Does your software automate a task, facilitate a task, or make a new task possible to perform? 
