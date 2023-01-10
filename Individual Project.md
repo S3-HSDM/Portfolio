@@ -9,25 +9,29 @@ For the deck overview I got my inspiration mainly from [HearthPwn](https://www.h
 ## Learning Outcomes (LO)
 For this semester we have to match some learning outcomes. These learning outcomes are displayed [here](https://github.com/S3-HSDM/Portfolio/blob/main/Learning%20Outcomes.md).
 
-## Project choices
-For this project I work according to the Agile ideology. I do this by working with Kanban method. Therefor I created a Kanban board on [Github](https://github.com/orgs/S3-HSDM/projects/1). The reason to choose for Kanban come from research I have done towards [Agile (LO-3)](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Agile.md) working. The languages and frameworks I use for my Individual Project are Java Spring Boot for the Backand of the project and Javascript Angular for the Frontend. The database will be a MySQL database. The reasoning for choosing these languages/frameworks are further explained in my research files. [Backend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Java%20Backend%20Research.md), [Frontend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Javascript%20Frontend%20Research.md) & [Database](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20&%20Documentation/Databases.md).
+## Project choices (LO-6)
+For this project I work according to the Agile ideology. I do this by working with Kanban method. Therefor I created a Kanban board on [Github](https://github.com/orgs/S3-HSDM/projects/1). The reason to choose for Kanban come from research I have done towards [Agile (LO-3)](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Agile.md) working. Doing this research and using the Kanban method for my IP helps me demonstrate being proficient for Learning Outcome 3.
+
+The languages and frameworks I use for my Individual Project are Java Spring Boot for the Backand of the project and Javascript Angular for the Frontend. The database will be a MySQL database. The reasoning for choosing these languages/frameworks are further explained in my research files. [Backend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Java%20Backend%20Research.md), [Frontend](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Javascript%20Frontend%20Research.md) & [Database](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20&%20Documentation/Databases.md).
 
 ## Software design (LO-6 & Lo-1)
-Before I could start coding for my web application I made Requirements, functional and non-functional. With those requirements I created user stories for my project. After the user stories I created a C4-model for my project. Those user stories and diagrams can be found in my documentation files. [Analysis Document](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Documentation.md)
+Before I could start coding for my web application I made Requirements, functional and non-functional. With those requirements I created user stories for my project. After the user stories I created a C4-model for my project. Those user stories and diagrams can be found in my documentation files. Creating the analysis document and researching my project choices help me demonstrate being proficient for Learning Outcome 6.
+
+[Analysis Document](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Documentation.md)
 
 For my UI design I followed the UX Method Competitive Analysis. To achieve this method I took inspiration from the Hearthstone and Hearthpwn web pages shown in the Introduction. For the Card overview page I used the Hearthstone page to find a way to show all the available ways to filter the cards, without creating a chaos of buttons or dropdowns where users could get lost. Also I took inspiration from both sites and want to combine them. On the Hearthstone page is a real good and clear card overview, you can also create decks, but you can't share the deck with others. On the Hearthpwn website is a deck overview page, where you can share your created decks, but you can also get inspiration from others or search for well performing decks. Yet the Card overview page is not clear, the filters are hard to find and you can't pick up all cards at once.
 
-## CI/CD (LO-4)
+## CI/CD (LO-4 & LO-2)
 ### CI
-To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend it runs a serie of Unittests, Integrationtests and Regressiontest. For the Frontend it also runs Unittest, Integrationtests and Regressiontests.
+To ensure that my project on the main branche is a working version I added CI via Github Actions. Everytime something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend and Frontend it runs a serie of Unittests and Regressiontest.
 
 ![Backend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/BackendActions.png?raw=true)
 
-The tests running in the backend can be seen [here](https://github.com/S3-HSDM/HSDM-BackEnd/tree/main/hsdm/src/test/java/nl/fhict/s3/hsdm). The folders contain the Unittests and the HSDMApplicationTests.java file contains the Integrationtests.
+The tests running in the backend can be seen [here](https://github.com/S3-HSDM/HSDM-BackEnd/tree/main/hsdm/src/test/java/nl/fhict/s3/hsdm). This folder contains the Unittests.
 
 ![Frontend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/FrontendActions.png?raw=true)
 
-Regressiontests make sure existing features still work when new code is added to the project. These Regressiontests are very usefull, because you don't have to manually check if the whole project still works when you add a new feature. These Regressiontests consist of the Unittests and the Integrationtest, which run automatically if new code is push to the main branche, because of the CI pipeline.
+Regressiontests make sure existing features still work when new code is added to the project. These Regressiontests are very usefull, because you don't have to manually check if the whole project still works when you add a new feature. These Regressiontests consist of the Unittests, which run automatically if new code is push to the main branche, because of the CI pipeline. Creating this CI pipeline helps me demonstrate being proficient for Learning Outcome 4.
 
 For my Non-functional requirements I used Lighthouse. This tool helps improving the performance, quality, and correctness web apps. When the tool audits a page it runs a serie of tests on the page and gives a report on how the page performed. The tool also gives tips to help improve the performance of the page. The first score below is from running lighthouse on the Cards page, with the report and tips on how to improve the page. The other score is from the Home Page.
 
@@ -40,8 +44,10 @@ From the scores I can conclude the performance is massively reduced by unused Ja
 After researching I found a way to reduce the size of the Javascript by editing configurations in the angular.json and package.json, which massively increased the performance for my application.
 ![Performance Lighthouse Card Page Improvemed](https://github.com/S3-HSDM/Portfolio/blob/main/images/LighthouseImprovemed.png?raw=true)
 
+Running these performance tests and improving my code/performancee with this test helps me demonstrate my proficiency at Learning Outcome 2.
+
 ### CD
-For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device.
+For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device. Deploying my project on Docker helps me demonstrate being proficient at Learning Outcome 4.
 
 ![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/Docker.png?raw=true)
 
@@ -55,26 +61,12 @@ Clean code is important for Software Quality as are the automated tests. Another
 ![Postman Tests](https://github.com/S3-HSDM/Portfolio/blob/main/images/PostmanTests.png?raw=true)
 ![Postman Test Results](https://github.com/S3-HSDM/Portfolio/blob/main/images/PostmanRunTests.png?raw=true)
 
+During the last Demo some small issues acted up. The CRUD functions didn't fully react or the backend/database connection wasn't fully working. Now I couldn't identify the root of the problems, which can be annoying to me, but also to other developers who want to work with the code. A good step to improve this and thus improving the software quality would be adding status codes and messages to the API responses. With status codes itgets easier to identify the root of the problems.
+
+Running Sonarcloud everytime code is added to the main branche and resolving code smells, bugs and vulnerabilities helps me demonstrate my proficiency at Learning Outcome 2.
+
 ## Web application (LO-1)
-For my IP I have created a full-stack web application, Hearthstone Deck Maker (HSDM). Sadly I haven't been able to implement all the user stories I came up with, but the application contains fully functional CRUD operations for the Card entity. All the users are able to see all the cards (Read), when a user is logged in as an admin he is also able to Create Cards, Update Cards and Delete Cards. The code for my application are available here. [Backend](https://github.com/S3-HSDM/HSDM-BackEnd) & [Frontend](https://github.com/S3-HSDM/HSDM-FrontEnd)
+For my IP I have created a full-stack web application, Hearthstone Deck Maker (HSDM). Sadly I haven't been able to implement all the user stories I came up with, but the application contains fully functional CRUD operations for the Card entity. All users are able to see all the cards (Read), but when a user is logged in as an admin he is also able to Create Cards, Update Cards and Delete Cards. To be able to distinguish the normal users from the admins I've implemented an external Authenticator named Auth0. Creating this full-stack webb application helps me demonstrate my proficiency at Learning Outcome 1. The code for my application are available here. [Backend](https://github.com/S3-HSDM/HSDM-BackEnd) & [Frontend](https://github.com/S3-HSDM/HSDM-FrontEnd)
 
 ## Professional (LO-8)
-To optimize my IP I have done research into new technologies, research to decide the right languages and frameworks and research to implement secure authentication for my application. Those research reports are available [here](https://github.com/S3-HSDM/Portfolio/tree/main/Research%20%26%20Documentation). Further I have had weekly meetings with the stakeholder and discussed the progress and which steps to take next. The Feedback of those meeting can be found [here](https://github.com/S3-HSDM/Portfolio/blob/main/images/FeedPulse.pdf).
-
-## My perspective
-### Web Application
-
-### Software Quality
-
-### Agile Method
-
-### CI/CD
-
-### Cultural Differences & Ethics
-
-### Requirements & Design
-
-### Business Processes
-
-### Professional
-
+To optimize my IP I have done research into new technologies, research to decide the right languages and frameworks and research to implement secure authentication for my application. Those research reports are available [here](https://github.com/S3-HSDM/Portfolio/tree/main/Research%20%26%20Documentation). Further I have had weekly meetings with the stakeholder and discussed the progress and which steps to take next. The Feedback of those meeting can be found [here](https://github.com/S3-HSDM/Portfolio/blob/main/images/FeedPulse.pdf). Doing these researches and having weekly meetings with the stakeholder help me demosntrate being proficient at Learning Outcome 8.
