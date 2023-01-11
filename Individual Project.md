@@ -72,7 +72,7 @@ Improving Software Quality also includes security testing. Therefor I've tried C
 
 The Cross-site Scripting tests show that the Injected code doesn't reach the DOM. The injected code doesn't run in the DOM, but is stored as a string in the database. Sonarcloud also scans the code of my application for security vulnerabilities. From Sonarcloud no security vulnerabilities were found in the main branch of the  Frontend and Backend.
   
-To take away the security risks for authentication I've made use of a Authenticator. The Authenticator I choose for my project is Auth0. After researching the security risks for implementing authentication myself I made the choice to use an authenticator, after which I researched 5 well known authenticators, resulting in my choice to use Auth0. ![Research report Authentication](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Authentication.md)
+To take away the security risks for authentication I've made use of a Authenticator. The Authenticator I choose for my project is Auth0. After researching the security risks for implementing authentication myself I made the choice to use an authenticator, after which I researched 5 well known authenticators, resulting in my choice to use Auth0. [Research report Authentication](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Authentication.md)
 
 Running Sonarcloud every time code is added to the main branch and resolving code smells, bugs and vulnerabilities helps me demonstrate my proficiency at Learning Outcome 2.
 
