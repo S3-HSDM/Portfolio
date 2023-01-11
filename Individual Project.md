@@ -23,11 +23,9 @@ For my UI design I followed the UX Method Competitive Analysis. To achieve this 
 
 ## CI/CD (LO-4 & LO-2)
 ### CI
-To ensure that my project on the main branch is a working version I added CI via Github Actions. Every time something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend and Frontend it runs a series of Unit tests and Regression test.
+To ensure that my project on the main branch is a working version I added CI via Github Actions. Every time something is pushed to the main branch, via a pull request from the development branch, the Github action runs all the tests and Sonarcloud. For my Backend and Frontend it runs a series of Unit tests and Regression test. The tests running in the backend can be seen [here](https://github.com/S3-HSDM/HSDM-BackEnd/tree/main/hsdm/src/test/java/nl/fhict/s3/hsdm). This folder contains the Unit tests. The Frontend tests can be found [here](https://github.com/S3-HSDM/HSDM-FrontEnd/tree/main/src/app) in /components and /services in the .spec.ts files.
 
 ![Backend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/BackendActions.png?raw=true)
-
-The tests running in the backend can be seen [here](https://github.com/S3-HSDM/HSDM-BackEnd/tree/main/hsdm/src/test/java/nl/fhict/s3/hsdm). This folder contains the Unit tests.
 
 ![Frontend Github Actions](https://github.com/S3-HSDM/Portfolio/blob/main/images/FrontendActions.png?raw=true)
 
@@ -63,7 +61,7 @@ Clean code is important for Software Quality as are the automated tests. Another
 
 During the last Demo some small issues acted up. The CRUD functions didn't fully react or the backend/database connection wasn't fully working. Now I couldn't identify the root of the problems, which can be annoying to me, but also to other developers who want to work with the code. A good step to improve this and thus improving the software quality would be adding status codes and messages to the API responses. With status codes it gets easier to identify the root of the problems.
 
-Improving Software Quality also includes security testing. Therefor I've tried Cross-site scripting (XSS) on my application. XSS enables attackers to inject malicious code into web pages. Such code can then, for example, steal user and login data, or perform actions that impersonate the user. This is one of the most common attacks on the web. To block XSS attacks, you must prevent malicious code from entering the Document Object Model (DOM). For example, if attackers can trick you into inserting a <script> tag in the DOM, they can run arbitrary code on your website. The attack isn't limited to <script> tags —many elements and properties in the DOM allow code execution, for example, <img alt="" onerror="..."> and <a href="javascript:...">. If attacker-controlled data enters the DOM, expect security vulnerabilities.
+Improving Software Quality also includes security testing. Therefor I've tried Cross-site scripting (XSS) on my application. XSS enables attackers to inject malicious code into web pages. Such code can then, for example, steal user and login data, or perform actions that impersonate the user. To block XSS attacks, you must prevent malicious code from entering the Document Object Model (DOM). For example, if attackers can trick you into inserting a <script> tag in the DOM, they can run arbitrary code on your website. The attack isn't limited to <script> tags —many elements and properties in the DOM allow code execution.
 
 ![AddCard Function Script XSS](https://github.com/S3-HSDM/Portfolio/blob/main/images/AddCardXSS.png?raw=true)
 ![AddCard Function Script XSS result](https://github.com/S3-HSDM/Portfolio/blob/main/images/AddCardXSSResult.png?raw=true)
