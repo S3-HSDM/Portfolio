@@ -2,17 +2,27 @@
 
 ## Ethics
 ### What is ethics in Software Engineering?
-Before we can research Ethics I needed to know what Ethics exactly is. According to [Wikipedia](https://en.wikipedia.org/wiki/Ethics) Ethics is a branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong behavior. This explains the general meaning of ethics, but what is Ethics in software engineering? To create a general view on ethics in software engineering a Code of Ethics is introduced, which contains 8 principles. A short version of this Code can be on [Computer.org](https://www.computer.org/education/code-of-ethics). With the introduction of this Code of Ethics all software engineers can match eachother in ethical considerations.
+For me I thought ethics is the act of justifying actions being right or wrong. After researching Ethics I found that Ethics is a branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong behavior, according to [Wikipedia](https://en.wikipedia.org/wiki/Ethics) 
+
+This explains the general meaning of ethics, but what is Ethics in software engineering? To create a general view on ethics in software engineering a Code of Ethics is introduced, which contains 8 principles. A short version of this Code can be on [Computer.org](https://www.computer.org/education/code-of-ethics). With the introduction of this Code of Ethics all software engineers have a guideline they can follow to ensure working ethically, but it's still their responsibility to take action in following these guidelines.
 
 Software engineers shall commit themselves to making the analysis, specification, design, development, testing and maintenance of software a beneficial and respected profession. In accordance with their commitment to the health, safety and welfare of the public, software engineers shall adhere to the following Eight Principles:
-1. **PUBLIC:** Software engineers shall act consistently with the public interest.
-2. **CLIENT AND EMPLOYER:** Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest.
-3. **PRODUCT:** Software engineers shall ensure that their products and related modifications meet the highest professional standards possible.
-4. **JUDGMENT:** Software engineers shall maintain integrity and independence in their professional judgment.
-5. **MANAGEMENT:** Software engineering managers and leaders shall subscribe to and promote an ethical approach to the management of software development and maintenance.
-6. **PROFESSION:** Software engineers shall advance the integrity and reputation of the profession consistent with the public interest.
-7. **COLLEAGUES:** Software engineers shall be fair to and supportive of their colleagues.
-8. **SELF:** Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
+1. **PUBLIC:** Software engineers shall act consistently with the public interest. </br> 
+This means software engineers should always put the public first, the intention of creating the software should always be to please/help the public, instead of making money, which can lead to dubious choices.
+2. **CLIENT AND EMPLOYER:** Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest. </br>
+In my opinion this comes close to the first point. The employer should always have the goal to please/help the public. The software engineer having the best interest for the client can only occur if the project isn't conflict with the first principle.
+3. **PRODUCT:** Software engineers shall ensure that their products and related modifications meet the highest professional standards possible. </br> 
+For me this point doesn't necessary have anything to do with ethics. For me it should always be the goal to create products in the best way you can. For me this should be standard for software engineers. You can't deliver a product that only partially functions or isn't secure.
+4. **JUDGMENT:** Software engineers shall maintain integrity and independence in their professional judgment. </br> 
+This point can in practice be a hard one. A software engineer could want to maintain integrity, but when their employer takes action towards the software engineer for not doing his job, the software engineers judgement can be biased.
+5. **MANAGEMENT:** Software engineering managers and leaders shall subscribe to and promote an ethical approach to the management of software development and maintenance. </br> 
+This point and the previous point should in my opinion be 1 principle. Without hte management being ethical the softwar engineer, in practice does not always have a choice in being ethical. A lot of other factors can change his view in order to keep his job.
+6. **PROFESSION:** Software engineers shall advance the integrity and reputation of the profession consistent with the public interest. </br> 
+This means software engineers will have to keep adapting and learning during their career in order to stay on the same line with the public interest.
+7. **COLLEAGUES:** Software engineers shall be fair to and supportive of their colleagues. </br> 
+I think this principle isn't necessarily a ethical point for a software engineer, but for every profession. To be an ethical person, you should always treat people right and support them.
+8. **SELF:** Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession. </br> 
+This principle has a lot in common wiht principle 6. In order to execute principle 6 a software engineer will have to keep on learing during their career.
 
 The practice of ethics has not traditionally been a part of software development. Software didn't always have a direct impact on daily life, and the pace of development was slow. In modern society, people encounter software in all aspects of life, and big data and data analytics have real ramifications for individuals. Although software developers work primarily behind the scenes in businesses, their decisions in the course of a project can have an outsized impact in the world, for better or worse. Everyone in the industry should be aware of social and ethical issues in software development and thus the importance of Ethics in software engineering have increased a lot in the last years.
 
