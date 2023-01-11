@@ -41,7 +41,7 @@ For my Non-functional requirements I used Lighthouse. This tool helps improving 
 
 From the scores I can conclude the performance is massively reduced by unused Javascript and uncompressed text, so fixing those issues would be the next step in improving the performance of my web application to match my requirements.
 
-After researching I found a way to reduce the size of the Javascript by editing configurations in the angular.json and package.json, which massively increased the performance for my application.
+After researching I found a way to reduce the size of the Javascript by editing configurations in the angular.json and package.json, which changes the way the application gets build, which massively increased the performance for my application.
 ![Performance Lighthouse Card Page Improvemed](https://github.com/S3-HSDM/Portfolio/blob/main/images/LighthouseImprovemed.png?raw=true)
 
 Running these performance tests and improving my code/performance with this test helps me demonstrate my proficiency at Learning Outcome 2.
@@ -71,6 +71,8 @@ Improving Software Quality also includes security testing. Therefor I've tried C
 ![AddCard Function DropTable XSS result](https://github.com/S3-HSDM/Portfolio/blob/main/images/AddCardXSSDropTableResult.png?raw=true)
 
 The Cross-site Scripting tests show that the Injected code doesn't reach the DOM. The injected code doesn't run in the DOM, but is stored as a string in the database. Sonarcloud also scans the code of my application for security vulnerabilities. From Sonarcloud no security vulnerabilities were found in the main branch of the  Frontend and Backend.
+  
+To take away the security risks for authentication I've made use of a Authenticator. The Authenticator I choose for my project is Auth0. After researching the security risks for implementing authentication myself I made the choice to use an authenticator, after which I researched 5 well known authenticators, resulting in my choice to use Auth0. ![Research report Authentication](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Authentication.md)
 
 Running Sonarcloud every time code is added to the main branch and resolving code smells, bugs and vulnerabilities helps me demonstrate my proficiency at Learning Outcome 2.
 
