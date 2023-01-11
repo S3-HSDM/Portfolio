@@ -6,7 +6,7 @@ For cultural differences and ethics to some ethical questions in the world of so
 [Cultural differences & Ethics](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md)
 
 ## Business processes (LO-7)
-For business process I did research towards what a business process is. After the research I created a business process for a customer buying a product in a webshop, but since this process only describes 1 person who is also not part of the business, it didn't really describe a business process. That's why I made another business process of a customer online returning a product. 
+For business process I did research towards what a business process is. After the research I created a business process for a customer buying a product in a webshop, but since this process only describes 1 person who is also not part of the business, it didn't really describe a business process. That's why I visualized another business process of our group project. 
 
 [Business Processes](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Business%20processes.md)
 
