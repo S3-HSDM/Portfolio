@@ -1,7 +1,7 @@
 # Group Project for World of Content; The Webshop Scraper Is-It-Live
 
 ## Cultural differences and ethics (LO-5)
-For cultural differences and ethics to some ethical questions in the world of software development and questioned myself where I draw the line for developing software like facial recognition and ownership of personal data and the protection of this data, but also the design of webpages, which can be misleading or addictive. After that I evaluated my own project for ethical questions.
+For cultural differences and ethics I've researched some ethical questions in the world of software development and questioned myself where I draw the line for developing software like ownership of personal data and the protection of this data, but also the design of webpages, which can be misleading or addictive. After that I evaluated my own project for ethical questions.
 
 [Cultural differences & Ethics](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md)
 
