@@ -32,6 +32,33 @@ To be fair we actually managed to do pretty well as a team and split the issues 
 ### What went wrong?
 There were one or two sprint assignments where we had to show what we've been working on, but we did'nt prepare ourselfs well enough. Which lead to all being muted when we sat down and just staring at the one team member that brought the laptop to start talking. So, that was'nt so great. We did manage to create time to prepare ourselfs better for the next assignment.
 
+## Requirements & User stories (LO-6)
+After we received the assignment, we discussed with our team what we thought was the right thing we had to build. To achieve this we created requirements, functional and non-functional, and User Stories. After the first sprint we discussed those requirements and user-stories with the stakeholder, which resulted in a degree of importance to implement the user stories and requirements.
+
+### Requirements
+#### Functional
+- Importing the data (Must have) 
+- Read the data (Must have) 
+- Synchronise data with the retailers data (Must have) 
+- An User has to be able to create an account (Could have) 
+- An User has to be able to login (Could have) 
+- Switch pages to other languages (Could have)
+- Store proucts in the database (Could have) 
+
+#### Non-Functional
+- Displaying the synced data in graphs.
+- The data synchronisation has to be done within 5 minutes.
+
+### User Stories
+- As supplier I want to be able to select a retailer to be able to check an overview of the products (must)
+- As an user I want to be able to get the result to know if my products are online with percentage of how many are online (must)
+- As an user I want to to have an graph on the overview for a quick check to see how many of my products are online (must)
+- As an user I have to be able to login to have access to my credentials (should)
+- As an user I want to be able to create an account and get access to the application (should)
+- As an user I want to be able to set the application to another language when I'm not capable enough to read/understand English (should)
+- As an user I want to be able to compare multiple retailers, so I can see which retailer performs best in getting the products live (could)
+- As an user I wnat to be able to import products to synchronise (could)
+
 ## Workflow
 ### How does the system work?
 You begin at the home page, where you are pesented a dropdown component where you select a retailer from. In this case, we limited the list of options to two retailers, Albert Heijn and Jumbo.
@@ -56,7 +83,9 @@ This widget contains a table which is filled with products that the retailer has
 ![Products Table](https://github.com/S3-HSDM/Portfolio/blob/main/images/ProductsTable.png?raw=true)
 
 ## Backend
-For the logic for this project we created a RestAPI and two scrapers. We also worked with MongoDB to create schemes and save necessary data into the database.
+For the logic for this project we created a RestAPI and two scrapers. We also worked with MongoDB to create schemes and save necessary data into the database. For the database we created an ERD diagram, so the one creating the Backend knows which entities to expect and to store from/to the database.
+
+![ERD diagram](https://github.com/S3-HSDM/Portfolio/blob/main/images/DatabaseERD.png?raw=true)
 
 ### Scrapers
 Two of our team members were frocussed on building scrapers so we could get the necessary data from the retailer's websites. The scrappers simply look over to one of the retailer's page and checks what is on it. It then scrapes the data and puts it into a file. That data we can compare with the list of products data we got from WoC.
@@ -66,7 +95,11 @@ The restapi is a backend tool where we can fetch data to be shown on the fronten
 
 ## Frontend
 ### Design
-We decided to go for a dashboard like style. This because we then could add several widgets, which seem to work quit well with this project. At first we started of with a neutral page, which showed several components. After getting some useful feedback from WoC, we decided to go for the dashboard style. The colors used on the page and in the components work wel with eachother, you can see what is non-functional and what is functional on the webpage. There was a little bit of research needed to see what kind of styling would be best for this project. This depended on what kind of data we where going to show and what kind of components the data was loaded in. We also decided to make use of Bootstrap and build the page using React JS.
+To make sure we would build the right thing, we first created wireframes for the pages we thought would be necessary. After discussing those wireframes with the stakeholder we've used their feedback, which resulted in the design we've come up.
+![Homepage WoC](https://github.com/S3-HSDM/Portfolio/blob/main/images/HomePageWoC.png?raw=true)
+![Resultpage WoC](https://github.com/S3-HSDM/Portfolio/blob/main/images/ResultPageWoC.png?raw=true)
+
+We decided, after discussing design with the stakeholder, to go for a dashboard like style. This because we then could add several widgets, which seem to work quit well with this project. At first we started of with a neutral page, which showed several components. After getting some useful feedback from WoC, we decided to go for the dashboard style. The colors used on the page and in the components work wel with eachother, you can see what is non-functional and what is functional on the webpage. There was a little bit of research needed to see what kind of styling would be best for this project. This depended on what kind of data we where going to show and what kind of components the data was loaded in. We also decided to make use of Bootstrap and build the page using React JS.
 
 ### Bootstrap
 Bootstrap has a very easy to use and user friendly system, called the Grid system. This system was very useful to us because we wanted the dashboard type of layout, and this was very easy to implement. You could add Containers, Rows and Columns to create a nice layout which was also responsive.
