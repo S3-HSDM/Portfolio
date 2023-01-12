@@ -1,4 +1,16 @@
 # Individual Project (Hearthstone Deck Maker)
+## Table of content
+- [Introduction](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#introduction)
+- [Learning Outcomes](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#learning-outcomes-lo)
+- [Project Choices](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#project-choices-lo-6)
+- [Software Design](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#software-design-lo-6--lo-1)
+- [CI/CD](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#cicd-lo-4--lo-2)
+  - [CI](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#ci)
+  - [CD](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#cd)
+- [Software Quality](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#software-quality-lo-2)
+- [Web Application](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#web-application-lo-1)
+- [Professional](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#professional-lo-8)
+
 ## Introduction
 For my Individual Project I am going to make a Hearthstone Deck Maker. On this web application you can get an overview over all the cards available in the game, get an overview of created decks by all users of the application and a page to create a deck yourself. For the card overview I got my inspiration from the [Hearthstone](https://hearthstone.blizzard.com/en-us/cards?set=standard&sort=dateadded%3Adesc%2Cname%3Aasc%2Cclasses%3Aasc) site.
 ![Hearthstone Card Overview](https://github.com/S3-HSDM/Portfolio/blob/main/images/cardoverview.jpg?raw=true)
