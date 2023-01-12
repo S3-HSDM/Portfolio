@@ -1,4 +1,19 @@
 # Group Project for World of Content; The Webshop Scraper Is-It-Live
+## Table of Content
+- [Cultural Differences & Ethics](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#cultural-differences-and-ethics-lo-5)
+- [Business Process](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#business-processes-lo-7)
+- [Agile Method](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#agile-method-lo-3)
+- [Group Project World of Content](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#group-project-for-world-of-content-woc)
+  - [Agile](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#agile-lo-3)
+  - [Issues](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#issues)
+  - [Working as a team](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#working-as-a-team--lo-3--lo-8)
+  - [Requirements & User Stories](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#requirements--user-stories-lo-6)
+  - [Workflow](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#workflow)
+  - [Backend](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#backend)
+  - [Architecture](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#architecture)
+  - [Frontend](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#frontend)
+  - [Docker (CD)](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#docker-lo-4)
+  - [My contributions](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#my-contributions-to-the-group-project-lo-1)
 
 ## Cultural differences and ethics (LO-5)
 For cultural differences and ethics I've researched some ethical questions in the world of software development and questioned myself where I draw the line for developing software like ownership of personal data and the protection of this data, but also the design of webpages, which can be misleading or addictive. After that I evaluated my own project for ethical questions.
@@ -90,6 +105,9 @@ For the logic for this project we created a RestAPI and two scrapers. We also wo
 ### Scrapers
 Two of our team members were frocussed on building scrapers so we could get the necessary data from the retailer's websites. The scrappers simply look over to one of the retailer's page and checks what is on it. It then scrapes the data and puts it into a file. That data we can compare with the list of products data we got from WoC.
 
+### Architecture
+![Architecture Diagram](https://github.com/S3-HSDM/Portfolio/blob/main/images/ArchitectureGP.png?raw=true)
+
 ### RestAPI
 The restapi is a backend tool where we can fetch data to be shown on the frontend of the project. The special thing within this RestAPI is that we managed to create a wrapper to fetch data more easily, instead of working with axios posts and gets.
 
@@ -109,9 +127,6 @@ The livescore is momenteraly calculated by comparing one snapshot to the existin
 ![Similarity Score](https://github.com/S3-HSDM/Portfolio/blob/main/images/SimilarityScore.png?raw=true)
 
 The livescore is calculated in the frontend of the project, since it doesn't need to be saved in the backend database.
-
-### Software Quality (LO-2)
-For the quality of the RestAPI we have created Postman tests to ensure the endpoints are working. We also have deployed the project on Docker in 4 containers: Frontend, Backend, Database and one for the Scrapers. Furthermore we have created for both Scrapers a statistics page, which quickly shows the performance of the Scrapers and if the Scrapers are still working correctly.
 
 ### Docker (LO-4)
 We have also deployed our Is-It-Live project with Docker. We have created a Docker-compose file which creates 4 containers, 1 for the Frontend, 2 for the Backend (1 for the logic and 1 for the Scrapers) and 1 for the Mongo Database.
