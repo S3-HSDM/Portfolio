@@ -1,8 +1,9 @@
-[Ehtical Issues I encountered](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md#ethical-issues-in-my-own-project)
-
 # Cultural differences & Ethics
+[Cultural differences](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md#cultural-differences)
 
 ## Ethics
+[Ehtical Issues I encountered](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md#ethical-issues-in-my-own-project)
+
 ### What is ethics in Software Engineering?
 For me I thought ethics is the act of justifying actions being right or wrong. After researching Ethics I found that Ethics is a branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong behavior, according to [Wikipedia](https://en.wikipedia.org/wiki/Ethics) 
 
@@ -96,6 +97,8 @@ In my future projects I want to address this earlier myself. This relates to one
 
 
 ## Cultural Differences
+[What is my culture & which cultural differences have I experienced](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md#what-is-my-culture)
+
 ### What is Culture?
 Culture is an umbrella term which encompasses the social behavior, institutions, and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, capabilities, and habits of the individuals in these groups. Humans acquire culture through the learning processes of enculturation and socialization, which is shown by the diversity of cultures across societies. In other words you could say culture is the opposite of nature, since nature is everything you're born with and culture is everything you've learned.
 
