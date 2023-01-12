@@ -43,6 +43,17 @@ To ensure that my project on the main branch is a working version I added CI via
 
 Regression tests make sure existing features still work when new code is added to the project. These Regression tests are very useful, because you don't have to manually check if the whole project still works when you add a new feature. These Regression tests consist of the Unit tests, which run automatically if new code is push to the main branch, because of the CI pipeline. Creating this CI pipeline helps me demonstrate being proficient for Learning Outcome 4.
 
+### CD
+For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device. Deploying my project on Docker helps me demonstrate being proficient at Learning Outcome 4.
+
+![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/Docker.png?raw=true)
+
+## Software Quality (LO-2)
+The tests that I have written for my CI are also a way to ensure the Software Quality of my project. These are automated tests which will run every time new code is pushed to the main branch, ensuring the Software Quality of the main branch. In my CI pipeline I've also integrated a workflow for Sonarcloud. Sonarcloud is a tool that checks my project for clean code, it looks for bugs, vulnerabilities, security hotspots, code smells and duplicated code. Every time new code is pushed to the main branch it checks for these 5 points and returns a report for code to improve, enhancing the Software Quality of my project. The first time I ran Sonarcloud on my project it came up with multiple issues.
+![Sonarcloud Before](https://github.com/S3-HSDM/Portfolio/blob/main/images/SonarCloudBefore.png?raw=true)
+After checking the report returned by Sonarcloud I improved the quality of the code in my project, resolving the issues found by Sonarcloud.
+![Sonarcloud After](https://github.com/S3-HSDM/Portfolio/blob/main/images/SonarCloudAfter.png?raw=true)
+
 For my Non-functional requirements I used Lighthouse. This tool helps improving the performance, quality, and correctness web apps. When the tool audits a page it runs a serie of tests on the page and gives a report on how the page performed. The tool also gives tips to help improve the performance of the page. The first score below is from running lighthouse on the Cards page, with the report and tips on how to improve the page. The other score is from the Home Page.
 
 ![Performance Lighthouse Card Page](https://github.com/S3-HSDM/Portfolio/blob/main/images/PerformanceLighthouse.png?raw=true)
@@ -55,17 +66,6 @@ After researching I found a way to reduce the size of the Javascript by editing 
 ![Performance Lighthouse Card Page Improvemed](https://github.com/S3-HSDM/Portfolio/blob/main/images/LighthouseImprovemed.png?raw=true)
 
 Running these performance tests and improving my code/performance with this test helps me demonstrate my proficiency at Learning Outcome 2.
-
-### CD
-For CD I setted up Docker for my project. Via a Docker-compose file 4 containers are created, one for my Frontend, one for my Backend and two to set up the Database. With those containers running my project runs on localhost. With the Docker images of my project, anyone can run my project on any device. Deploying my project on Docker helps me demonstrate being proficient at Learning Outcome 4.
-
-![Docker Containers](https://github.com/S3-HSDM/Portfolio/blob/main/images/Docker.png?raw=true)
-
-## Software Quality (LO-2)
-The tests that I have written for my CI are also a way to ensure the Software Quality of my project. These are automated tests which will run every time new code is pushed to the main branch, ensuring the Software Quality of the main branch. In my CI pipeline I've also integrated a workflow for Sonarcloud. Sonarcloud is a tool that checks my project for clean code, it looks for bugs, vulnerabilities, security hotspots, code smells and duplicated code. Every time new code is pushed to the main branch it checks for these 5 points and returns a report for code to improve, enhancing the Software Quality of my project. The first time I ran Sonarcloud on my project it came up with multiple issues.
-![Sonarcloud Before](https://github.com/S3-HSDM/Portfolio/blob/main/images/SonarCloudBefore.png?raw=true)
-After checking the report returned by Sonarcloud I improved the quality of the code in my project, resolving the issues found by Sonarcloud.
-![Sonarcloud After](https://github.com/S3-HSDM/Portfolio/blob/main/images/SonarCloudAfter.png?raw=true)
 
 Clean code is important for Software Quality as are the automated tests. Another good way to improve the Software Quality are Integration test from Postman. These Integration tests send HTTP requests to the endpoints of my Backend and check if the Backend returns correctly. The tests check if the request returns the correct status code and if necessary if the request returns a body.
 ![Postman Tests](https://github.com/S3-HSDM/Portfolio/blob/main/images/PostmanTests.png?raw=true)
