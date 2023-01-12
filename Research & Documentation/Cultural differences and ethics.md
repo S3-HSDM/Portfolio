@@ -1,3 +1,5 @@
+[Ehtical Issues I encountered](https://github.com/S3-HSDM/Portfolio/blob/main/Research%20%26%20Documentation/Cultural%20differences%20and%20ethics.md#ethical-issues-in-my-own-project)
+
 # Cultural differences & Ethics
 
 ## Ethics
