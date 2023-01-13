@@ -1,7 +1,7 @@
 # Individual Project (Hearthstone Deck Maker)
 ## Table of content
 - [Introduction](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#introduction)
-- [Learning Outcomes](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#learning-outcomes-lo)
+- [Learning Outcomes & Reflection](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#learning-outcomes-lo)
 - [Project Choices](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#project-choices-lo-6)
 - [Software Design](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#software-design-lo-6--lo-1)
 - [CI/CD](https://github.com/S3-HSDM/Portfolio/blob/main/Individual%20Project.md#cicd-lo-4--lo-2)
@@ -18,7 +18,7 @@ For my Individual Project I am going to make a Hearthstone Deck Maker. On this w
 For the deck overview I got my inspiration mainly from [HearthPwn](https://www.hearthpwn.com/decks?filter-show-standard=1&filter-show-constructed-only=y&filter-deck-tag=1) site.
 ![HearthPwn Deck Overview](https://github.com/S3-HSDM/Portfolio/blob/main/images/deckoverview.jpg?raw=true)
 
-## Learning Outcomes (LO)
+## Learning Outcomes & Reflection (LO)
 For this semester we have to match some learning outcomes. These learning outcomes are displayed [here](https://github.com/S3-HSDM/Portfolio/blob/main/Learning%20Outcomes.md).
 
 ## Project choices (LO-6)
