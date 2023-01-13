@@ -1,5 +1,6 @@
 # Group Project for World of Content; The Webshop Scraper Is-It-Live
 ## Table of Content
+- [Learning Outcomes & Reflection](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#learning-outcomes--reflection-lo)
 - [Cultural Differences & Ethics](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#cultural-differences-and-ethics-lo-5)
 - [Business Process](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#business-processes-lo-7)
 - [Agile Method](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#agile-method-lo-3)
@@ -14,6 +15,9 @@
   - [Frontend](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#frontend)
   - [Docker (CD)](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#docker-lo-4)
   - [My contributions](https://github.com/S3-HSDM/Portfolio/blob/main/Group%20Project.md#my-contributions-to-the-group-project-lo-1)
+
+## Learning Outcomes & Reflection (LO)
+For this semester we have to match some learning outcomes. These learning outcomes are displayed [here](https://github.com/S3-HSDM/Portfolio/blob/main/Learning%20Outcomes.md).
 
 ## Cultural differences and ethics (LO-5)
 For cultural differences and ethics I've researched some ethical questions in the world of software development and questioned myself where I draw the line for developing software like ownership of personal data and the protection of this data, but also the design of webpages, which can be misleading or addictive. After that I evaluated my own project for ethical questions.
